@@ -31,6 +31,30 @@ std::string collect_output_name_age_in_months() {
 }
 
 
+void output_first_second_names() {
+    std::cout << "Please enter your first and second names:\n";
+    std::string first = "???";
+    std::string second = "???";
+
+    std::cin >> first >> second;
+    std::string name = first + ' ' + second;
+
+    std::cout << "Hello, " + name << '\n';
+}
+
+
+void output_first_second_names_with_string_comparison() {
+    std::cout << "Please enter two names names:\n";
+    std::string first = "???";
+    std::string second = "???";
+
+    std::cin >> first >> second;
+    if (first == second) std::cout << "That's the same name twice!\n";
+    if (first < second) std::cout << first << " is alphabetically before " << second << '\n';
+    if (first > second) std::cout << first << " is alphabetically after " << second << '\n';
+}
+
+
 void exercise_operators() {
     std::cout << "Please enter a floating point value: ";
     double n;
@@ -56,7 +80,8 @@ void exercise_int_operators() {
                 << "\nthree times n == " << 3 * n
                 << "\ntwice n == " << n + n
                 << "\nn squared == " << n * n
-                << "\nhalf of n == " << n / 2
+                << "\nmodulo of n == " << n % 2
+                << "\nDivision of n by 2 == " << n / 2
                 << "\nsquare root of n == " << sqrt(n)
                 << '\n';
 }
