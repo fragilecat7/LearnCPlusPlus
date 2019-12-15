@@ -13,6 +13,7 @@ std::string collect_output_name_age_in_months();
 void output_first_second_names();
 void output_first_second_names_with_string_comparison();
 
+void output_repeated_words();
 
 void exercise_operators();
 void exercise_int_operators();

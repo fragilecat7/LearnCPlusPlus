@@ -55,6 +55,18 @@ void output_first_second_names_with_string_comparison() {
 }
 
 
+void output_repeated_words() {
+    std::string previous = "";
+    std::string current;
+
+    while (std::cin >> current) {
+        if (previous == current)
+            std::cout << "repeated word: " << current << '\n';
+
+        previous = current;
+    }
+}
+
 void exercise_operators() {
     std::cout << "Please enter a floating point value: ";
     double n;
