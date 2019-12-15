@@ -14,7 +14,7 @@ std::string collect_output_name_age() {
 
     std::cin >> first_name;
     std::cin >> age;
-    return "Hello " + first_name + " (age: " + std::to_string(age).substr(0, std::to_string(age).find(".")+3) + ")";
+    return "Hello " + first_name + " (age: " + std::to_string(age) + ")";
 }
 
 std::string collect_output_name_age_in_months() {

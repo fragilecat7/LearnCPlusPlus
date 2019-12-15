@@ -12,9 +12,8 @@ int main() {
     // output_chapter2();
 
     // Chapter 3
-    //cout << collect_output_name_age() << "!\n";
-    std::cout.precision(2);
-    std::cout << collect_output_name_age_in_months() << "!\n";
+    std::cout << collect_output_name_age() << "!\n";
+    //std::cout << collect_output_name_age_in_months() << "!\n";
     return 0;
 }
 
