@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <string>
+#include <cstdio>
 
 #include "Chapter3.h"
 
@@ -13,8 +14,7 @@ std::string collect_output_name_age() {
 
     std::cin >> first_name;
     std::cin >> age;
-
-    return "Hello " + first_name + " (age: " + std::to_string(age) + ")";
+    return "Hello " + first_name + " (age: " + std::to_string(age).substr(0, std::to_string(age).find(".")+3) + ")";
 }
 
 std::string collect_output_name_age_in_months() {
@@ -26,5 +26,5 @@ std::string collect_output_name_age_in_months() {
     std::cin >> age;
     age = 12 * age;
 
-    return "Hello " + first_name + " (age: " + std::to_string(age) + " months)";
+    return "Hello " + first_name + " (age: " + std::to_string(age).substr(0, std::to_string(age).find(".")+3) + " months)";
 }
