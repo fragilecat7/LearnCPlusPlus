@@ -2,13 +2,13 @@
 // Created by Peter Hornsby on 12/13/19.
 //
 
+#include <string>
+
 #ifndef LEARNCPLUSPLUS_CHAPTER3_H
 #define LEARNCPLUSPLUS_CHAPTER3_H
 
+std::string collect_output_name_age();
 
-class Chapter3 {
-
-};
-
+std::string collect_output_name_age_in_months();
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H

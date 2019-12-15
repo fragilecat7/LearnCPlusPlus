@@ -8,11 +8,25 @@
 
 /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.h
 
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.cpp
+iostream
+-
+string
+-
+Chapter3.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.h
+
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.h
+string
+-
+
 /Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp
 std_lib_facilities.h
 /Users/phornsby/Documents/Work/LearnCPlusPlus/std_lib_facilities.h
 Chapters/Chapter2.h
 /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.h
+Chapters/Chapter3.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.h
 
 /Users/phornsby/Documents/Work/LearnCPlusPlus/std_lib_facilities.h
 iostream

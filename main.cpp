@@ -1,29 +1,8 @@
 #include "std_lib_facilities.h"
 #include "Chapters/Chapter2.h"
+#include "Chapters/Chapter3.h"
 
 
-string collect_output_name_age() {
-    cout << "Please enter your first name and age:\n";
-    string first_name = "???";
-    int age = 0;
-
-    cin >> first_name;
-    cin >> age;
-
-    return "Hello " + first_name + " (age: " + to_string(age) + ")";
-}
-
-string collect_output_name_age_in_months() {
-    cout << "Please enter your first name and age:\n";
-    string first_name = "???";
-    double age = 0;
-
-    cin >> first_name;
-    cin >> age;
-    age = 12 * age;
-
-    return "Hello " + first_name + " (age: " + to_string(age) + " months)";
-}
 
 
 int main() {
