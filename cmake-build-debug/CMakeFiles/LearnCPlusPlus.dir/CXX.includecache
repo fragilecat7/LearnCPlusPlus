@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter2.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.h
 
-/Users/phornsby/CLionProjects/LearnCPlusPlus/main.cpp
+/Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp
 std_lib_facilities.h
-/Users/phornsby/CLionProjects/LearnCPlusPlus/std_lib_facilities.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/std_lib_facilities.h
 Chapters/Chapter2.h
-/Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter2.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.h
 
-/Users/phornsby/CLionProjects/LearnCPlusPlus/std_lib_facilities.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/std_lib_facilities.h
 iostream
 -
 iomanip

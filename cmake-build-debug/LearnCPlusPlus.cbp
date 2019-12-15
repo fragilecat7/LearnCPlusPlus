@@ -8,97 +8,97 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug"/>
+				<Option working_dir="/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug"/>
+				<Option working_dir="/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug"/>
+				<Option working_dir="/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LearnCPlusPlus">
-				<Option output="/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/LearnCPlusPlus" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug"/>
+				<Option output="/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/LearnCPlusPlus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnCPlusPlus"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnCPlusPlus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LearnCPlusPlus/fast">
-				<Option output="/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/LearnCPlusPlus" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug"/>
+				<Option output="/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/LearnCPlusPlus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnCPlusPlus/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnCPlusPlus/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter2.cpp">
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.cpp">
 			<Option target="LearnCPlusPlus"/>
 		</Unit>
-		<Unit filename="/Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter2.h">
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.h">
 			<Option target="LearnCPlusPlus"/>
 		</Unit>
-		<Unit filename="/Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter3.cpp">
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.cpp">
 			<Option target="LearnCPlusPlus"/>
 		</Unit>
-		<Unit filename="/Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter3.h">
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.h">
 			<Option target="LearnCPlusPlus"/>
 		</Unit>
-		<Unit filename="/Users/phornsby/CLionProjects/LearnCPlusPlus/main.cpp">
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp">
 			<Option target="LearnCPlusPlus"/>
 		</Unit>
-		<Unit filename="/Users/phornsby/CLionProjects/LearnCPlusPlus/std_lib_facilities.h">
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/std_lib_facilities.h">
 			<Option target="LearnCPlusPlus"/>
 		</Unit>
-		<Unit filename="/Users/phornsby/CLionProjects/LearnCPlusPlus/CMakeLists.txt">
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

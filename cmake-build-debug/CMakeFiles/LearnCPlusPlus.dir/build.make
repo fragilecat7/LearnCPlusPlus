@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/phornsby/CLionProjects/LearnCPlusPlus
+CMAKE_SOURCE_DIR = /Users/phornsby/Documents/Work/LearnCPlusPlus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LearnCPlusPlus.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/LearnCPlusPlus.dir/flags.make
 
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/main.cpp.o -c /Users/phornsby/CLionProjects/LearnCPlusPlus/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/main.cpp.o -c /Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp
 
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCPlusPlus.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/CLionProjects/LearnCPlusPlus/main.cpp > CMakeFiles/LearnCPlusPlus.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp > CMakeFiles/LearnCPlusPlus.dir/main.cpp.i
 
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/CLionProjects/LearnCPlusPlus/main.cpp -o CMakeFiles/LearnCPlusPlus.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp -o CMakeFiles/LearnCPlusPlus.dir/main.cpp.s
 
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o: ../Chapters/Chapter2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o -c /Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o -c /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.cpp
 
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter2.cpp > CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.cpp > CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.i
 
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter2.cpp -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.cpp -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.s
 
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o: ../Chapters/Chapter3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o -c /Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o -c /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.cpp
 
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter3.cpp > CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.cpp > CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.i
 
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/CLionProjects/LearnCPlusPlus/Chapters/Chapter3.cpp -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.cpp -o CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.s
 
 # Object files for target LearnCPlusPlus
 LearnCPlusPlus_OBJECTS = \
@@ -110,7 +110,7 @@ LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o
 LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o
 LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/build.make
 LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LearnCPlusPlus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LearnCPlusPlus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LearnCPlusPlus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/LearnCPlusPlus.dir/clean:
 .PHONY : CMakeFiles/LearnCPlusPlus.dir/clean
 
 CMakeFiles/LearnCPlusPlus.dir/depend:
-	cd /Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/phornsby/CLionProjects/LearnCPlusPlus /Users/phornsby/CLionProjects/LearnCPlusPlus /Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug /Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug /Users/phornsby/CLionProjects/LearnCPlusPlus/cmake-build-debug/CMakeFiles/LearnCPlusPlus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/phornsby/Documents/Work/LearnCPlusPlus /Users/phornsby/Documents/Work/LearnCPlusPlus /Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug /Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug /Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles/LearnCPlusPlus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LearnCPlusPlus.dir/depend
 
