@@ -12,5 +12,6 @@ std::string collect_output_name_age();
 std::string collect_output_name_age_in_months();
 
 void exercise_operators();
+void exercise_int_operators();
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H

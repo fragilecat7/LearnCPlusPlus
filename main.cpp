@@ -17,7 +17,8 @@ int main() {
     // Chapter 3
     //std::cout << collect_output_name_age() << "!\n";
     //std::cout << collect_output_name_age_in_months() << "!\n";
-    exercise_operators();
+    //exercise_operators();
+    exercise_int_operators();
     return 0;
 }
 
