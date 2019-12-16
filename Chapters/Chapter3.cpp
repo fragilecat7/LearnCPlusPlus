@@ -5,6 +5,7 @@
 #include <string>
 #include <cstdio>
 #include <cmath>
+#include <vector>
 
 #include "Chapter3.h"
 
@@ -56,12 +57,14 @@ void output_first_second_names_with_string_comparison() {
 
 
 void output_repeated_words() {
+    int number_of_words = 0;
     std::string previous = "";
     std::string current;
 
     while (std::cin >> current) {
+        ++number_of_words;
         if (previous == current)
-            std::cout << "repeated word: " << current << '\n';
+            std::cout << "Word number: " << number_of_words << " repeated word: " << current << '\n';
 
         previous = current;
     }
@@ -96,4 +99,19 @@ void exercise_int_operators() {
                 << "\nDivision of n by 2 == " << n / 2
                 << "\nsquare root of n == " << sqrt(n)
                 << '\n';
+}
+
+
+void output_types_and_objects_list() {
+    std::vector<std::string> list {"A 'type' defines a set of possible values and a setof operations (for an object) ",
+                                        "A 'object' is some memory that holds a value of a given 'type'",
+                                        "A 'value' is a set of bits in memory interpreted according to a 'type'",
+                                        "A 'variable' is a named `object`"
+                                        "A 'declaration' is a statement that givens a name to an 'object'",
+                                        "A 'definition' is a 'declaration' that sets aside memory for an 'object'"};
+
+    std::cout << "\n3.8 Types and objects" << std::endl;
+    for (std::vector<std::string>::iterator it = list.begin() ; it != list.end(); ++it)
+        std::cout << '\n' << *it;
+    std::cout << "\n\n";
 }

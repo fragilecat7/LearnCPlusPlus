@@ -19,10 +19,16 @@ int main() {
     //std::cout << collect_output_name_age_in_months() << "!\n";
     //output_first_second_names();
     //output_first_second_names_with_string_comparison();
-    output_repeated_words();
+    //output_repeated_words();
     // Operators
     //exercise_operators();
     //exercise_int_operators();
+
+    output_types_and_objects_list();
+
+    std::string s = "Goodbye, cruel world!";
+    std::cout << s << '\n';
+
     return 0;
 }
 

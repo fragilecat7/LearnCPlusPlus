@@ -18,4 +18,6 @@ void output_repeated_words();
 void exercise_operators();
 void exercise_int_operators();
 
+void output_types_and_objects_list();
+
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
