@@ -25,7 +25,7 @@ int main() {
     //exercise_int_operators();
 
     output_types_and_objects_list();
-
+    output_narrowing_conversions();
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';
 

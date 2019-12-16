@@ -103,10 +103,10 @@ void exercise_int_operators() {
 
 
 void output_types_and_objects_list() {
-    std::vector<std::string> list {"A 'type' defines a set of possible values and a setof operations (for an object) ",
+    std::vector<std::string> list {"A 'type' defines a set of possible values and a set of operations (for an object) ",
                                         "A 'object' is some memory that holds a value of a given 'type'",
                                         "A 'value' is a set of bits in memory interpreted according to a 'type'",
-                                        "A 'variable' is a named `object`"
+                                        "A 'variable' is a named `object`",
                                         "A 'declaration' is a statement that givens a name to an 'object'",
                                         "A 'definition' is a 'declaration' that sets aside memory for an 'object'"};
 
@@ -114,4 +114,19 @@ void output_types_and_objects_list() {
     for (std::vector<std::string>::iterator it = list.begin() ; it != list.end(); ++it)
         std::cout << '\n' << *it;
     std::cout << "\n\n";
+}
+
+
+void output_narrowing_conversions() {
+    double d = 0;
+    while (std::cin >> d) {
+        int i = d;
+        char c = i;
+        int i2 = c;
+
+        std::cout  << "d == " << d
+                    << "\ni == " << i
+                    << "\ni2 == " << i2
+                    << "\nchar(" << c << ")\n";
+    }
 }

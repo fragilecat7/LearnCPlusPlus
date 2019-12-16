@@ -20,4 +20,7 @@ void exercise_int_operators();
 
 void output_types_and_objects_list();
 
+void output_narrowing_conversions();
+
+
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
