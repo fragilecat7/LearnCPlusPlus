@@ -56,7 +56,7 @@ std::vector<std::string> items {"//",
 
 void output_chapter2() {
 
-    std::cout << "\nQuestions" << std::endl;
+    std::cout << "\nChapter 2 Questions" << std::endl;
     for (std::vector<std::string>::iterator it = questions.begin() ; it != questions.end(); ++it)
         std::cout << '\n' << *it;
     std::cout << "\n\n";

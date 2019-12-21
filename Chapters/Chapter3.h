@@ -7,6 +7,8 @@
 #ifndef LEARNCPLUSPLUS_CHAPTER3_H
 #define LEARNCPLUSPLUS_CHAPTER3_H
 
+void output_chapter3();
+
 
 std::string collect_output_name_age();
 std::string collect_output_name_age_in_months();

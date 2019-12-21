@@ -9,13 +9,13 @@
 
 #include "Chapter3.h"
 
-std::vector<std::string> questions {"What is meant by the term prompt?",
+std::vector<std::string> questions3 {"What is meant by the term prompt?",
                                     "Which operator do you use to read into a variable?",
                                     "If you want the user to input an integer value into your program for a variable named 'number', what are two lines of code you could write to ask the user to do it and to input the value into your pprogram?",
                                     "What is '\\n' called and what purpose does it serve?"
                                     "What terminates input into a string?",
                                     "What terminates input into an integer?",
-                                    "How would you write the following code as one line? 'cout<<\"Hello, \"\n;cout<<first_name;\ncout<<'\n';'",
+                                    "How would you write the following code as one line?\n 'cout<<\"Hello, \"\n;cout<<first_name;\ncout<<'\n';'",
                                     "What is an object?",
                                     "What is a literal?",
                                     "What kinds of literals are there?",
@@ -32,6 +32,26 @@ std::vector<std::string> questions {"What is meant by the term prompt?",
                                     "What is type safety and why is it important?",
                                     "Why can conversion from double to int be a bad thing?",
                                     "Define a rule to help decide if a conversion from one type to another is safe or unsafe"};
+
+
+void output_chapter3() {
+
+    std::cout << "\nChapter 3 Questions" << std::endl;
+    for (std::vector<std::string>::iterator it = questions3.begin() ; it != questions3.end(); ++it)
+        std::cout << '\n' << *it;
+    std::cout << "\n\n";
+
+//    std::cout << "\nAnswers" << std::endl;
+//    for (std::vector<std::string>::iterator it = answers.begin() ; it != answers.end(); ++it)
+//        std::cout << '\n' << *it;
+//    std::cout << "\n\n";
+//
+//    std::cout << "\nItems you should know about :)" << std::endl;
+//    for (std::vector<std::string>::iterator it = items.begin() ; it != items.end(); ++it)
+//        std::cout << ", " << *it;
+//    std::cout << "\n\n";
+}
+
 
 
 

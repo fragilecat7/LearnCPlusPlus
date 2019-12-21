@@ -15,19 +15,23 @@ int main() {
     // output_chapter2();
 
     // Chapter 3
+    output_chapter3();
+
     //std::cout << collect_output_name_age() << "!\n";
     //std::cout << collect_output_name_age_in_months() << "!\n";
     //output_first_second_names();
     //output_first_second_names_with_string_comparison();
     //output_repeated_words();
-    // Operators
+
+    // operators
     //exercise_operators();
     //exercise_int_operators();
 
     //output_types_and_objects_list();
     //output_narrowing_conversions();
 
-    make_form_letter();
+    // drill
+    //make_form_letter();
 
 
     // The End
