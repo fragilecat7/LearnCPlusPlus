@@ -133,11 +133,48 @@ void output_narrowing_conversions() {
 
 
 void make_form_letter() {
-    std::cout << "Welcome to  Cheap & Cheerful Form letter Productions!";
+    std::cout << "\nWelcome to  Cheap & Cheerful Form letter Productions!\n";
+    std::cout << "\nPlease enter your name: ";
+    std::string from_name;
+    std::cin >> from_name;
     std::cout << "\nPlease enter the name of the person you want to write to: ";
-    std::string first_name;
-    std::cin >> first_name;
+    std::string to_name;
+    std::cin >> to_name;
+    std::cout << "\nPlease enter the name of the person you want to enquire about: ";
+    std::string friend_name;
+    std::cin >> friend_name;
 
-    std::cout << "\nDear, " << first_name << "\nThis is our basic form letter, not the best but CHEAP" <<"\n";
+    std::cout << "\nPlease enter m for male or f for female for the person you are enquiring about: ";
+    char friend_sex;
+    std::cin >> friend_sex;
+
+    std::cout << "\nPlease enter the age of that person: ";
+    int friend_age;
+    std::cin >> friend_age;
+    std::string age_related_text = "Next year you will be able to vote.";
+    if (friend_age <= 0 || friend_age >= 110) {
+        std::cerr << "error: " << "Your'e kidding mate!!" << '\n';
+        exit(1);
+    } else if (friend_age < 12) {
+        age_related_text = "Next year " + friend_name + " will be " + std::to_string(friend_age + 1) + ".";
+    } else if (friend_age > 70) {
+        age_related_text = "I hope " + friend_name + " is enjoying retirement!";
+    } else {
+        age_related_text = "Ah, another year wiser!";
+    }
+
+
+    std::cout << "\nDear, " << to_name
+                << "\n\t\tHow are you mate? Life treating you well I hope, kids? Still playing golf, lovely! "
+                << "I hear that " << friend_name << " just had a birthday and "
+                << (friend_sex == 'f' ? "she" : "he") << " is "
+                << friend_age << " years old. " << '\n'
+                << age_related_text
+                << " Hey if you see " << friend_name
+                << ", can you get "
+                << (friend_sex == 'f' ? "her" : "him")
+                << " to call me on this number 404-006-0007, thanks."
+                <<"\n\n\tYours sincerely, \n\n\t" << from_name
+                << "\n\n";
 
 }
