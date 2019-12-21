@@ -27,7 +27,7 @@ int main() {
     //output_types_and_objects_list();
     //output_narrowing_conversions();
 
-    std:cout << make_form_letter() << '\n';
+    make_form_letter();
 
 
     // The End

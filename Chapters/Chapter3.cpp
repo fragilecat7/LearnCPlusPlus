@@ -132,7 +132,12 @@ void output_narrowing_conversions() {
 }
 
 
-std::string make_form_letter() {
+void make_form_letter() {
+    std::cout << "Welcome to  Cheap & Cheerful Form letter Productions!";
+    std::cout << "\nPlease enter the name of the person you want to write to: ";
+    std::string first_name;
+    std::cin >> first_name;
 
-    return "move along nothing to see here..";
+    std::cout << "\nDear, " << first_name << "\nThis is our basic form letter, not the best but CHEAP" <<"\n";
+
 }

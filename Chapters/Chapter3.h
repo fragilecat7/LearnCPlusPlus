@@ -23,7 +23,7 @@ void output_types_and_objects_list();
 void output_narrowing_conversions();
 
 
-std::string make_form_letter();
+void make_form_letter();
 
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
