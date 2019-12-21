@@ -9,6 +9,32 @@
 
 #include "Chapter3.h"
 
+std::vector<std::string> questions {"What is meant by the term prompt?",
+                                    "Which operator do you use to read into a variable?",
+                                    "If you want the user to input an integer value into your program for a variable named 'number', what are two lines of code you could write to ask the user to do it and to input the value into your pprogram?",
+                                    "What is '\\n' called and what purpose does it serve?"
+                                    "What terminates input into a string?",
+                                    "What terminates input into an integer?",
+                                    "How would you write the following code as one line? 'cout<<\"Hello, \"\n;cout<<first_name;\ncout<<'\n';'",
+                                    "What is an object?",
+                                    "What is a literal?",
+                                    "What kinds of literals are there?",
+                                    "What is a variable?",
+                                    "What are tyical sizes for a char, an int and a double?",
+                                    "What measures do we use for the size of small entities in memory, usch as int's and strings?"
+                                    "What is the difference between = and ==?",
+                                    "What is a definitation?",
+                                    "What is initialization and does it differ from assignment?",
+                                    "What is string concatenation and how do you make it work in C++?",
+                                    "Which of the following are legal names in C++? If a name is not legal, why not?\nThis_little_pig, This_1_is_fine, 2_For_1_special, latest thing, the_$12_method, _this_is_ok, MiniMineMine, number, correct?",
+                                    "Give five examples of legal names that you shouldn't use because they are likely to cause confusion",
+                                    "What are some good rules for choosing names?",
+                                    "What is type safety and why is it important?",
+                                    "Why can conversion from double to int be a bad thing?",
+                                    "Define a rule to help decide if a conversion from one type to another is safe or unsafe"};
+
+
+
 std::string collect_output_name_age() {
     std::cout << "Please enter your first name and age:\n";
     std::string first_name = "???";
