@@ -130,3 +130,9 @@ void output_narrowing_conversions() {
                     << "\nchar(" << c << ")\n";
     }
 }
+
+
+std::string make_form_letter() {
+
+    return "move along nothing to see here..";
+}

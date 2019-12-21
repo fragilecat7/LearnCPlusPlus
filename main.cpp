@@ -24,8 +24,13 @@ int main() {
     //exercise_operators();
     //exercise_int_operators();
 
-    output_types_and_objects_list();
-    output_narrowing_conversions();
+    //output_types_and_objects_list();
+    //output_narrowing_conversions();
+
+    std:cout << make_form_letter() << '\n';
+
+
+    // The End
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';
 
