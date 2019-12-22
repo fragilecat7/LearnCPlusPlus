@@ -1,4 +1,5 @@
-#include "std_lib_facilities.h"
+//#include "std_lib_facilities.h"
+#include "Chapters/Chapter.h"
 #include "Chapters/Chapter2.h"
 #include "Chapters/Chapter3.h"
 
@@ -8,14 +9,16 @@
 int main() {
     std::cout << "Hello, World!\n ...and welcome Pete :)" << std::endl;
 
-    string test = "a test string";
+    std::string test = "a test string";
     int test_int = 7;
 
     // Chapter 2
     // output_chapter2();
+    Chapter2 chapter2;
+    chapter2.output();
 
     // Chapter 3
-    output_chapter3();
+    //output_chapter3();
 
     //std::cout << collect_output_name_age() << "!\n";
     //std::cout << collect_output_name_age_in_months() << "!\n";

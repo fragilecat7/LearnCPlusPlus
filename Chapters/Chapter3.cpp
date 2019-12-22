@@ -12,7 +12,7 @@
 std::vector<std::string> questions3 {"What is meant by the term prompt?",
                                     "Which operator do you use to read into a variable?",
                                     "If you want the user to input an integer value into your program for a variable named 'number', what are two lines of code you could write to ask the user to do it and to input the value into your pprogram?",
-                                    "What is '\\n' called and what purpose does it serve?"
+                                    "What is '\\n' called and what purpose does it serve?\n"
                                     "What terminates input into a string?",
                                     "What terminates input into an integer?",
                                     "How would you write the following code as one line?\n 'cout<<\"Hello, \"\n;cout<<first_name;\ncout<<'\n';'",

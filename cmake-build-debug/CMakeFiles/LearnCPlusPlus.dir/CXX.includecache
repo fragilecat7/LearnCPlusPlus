@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.cpp
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter.cpp
+Chapter.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter.h
+
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter.h
 iostream
 -
 string
 -
-cstdio
--
-cmath
--
 vector
--
-Chapter3.h
-/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.h
-
-/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter3.h
-string
 -
 

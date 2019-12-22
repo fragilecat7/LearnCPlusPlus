@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter.cpp">
+			<Option target="LearnCPlusPlus"/>
+		</Unit>
+		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter.h">
+			<Option target="LearnCPlusPlus"/>
+		</Unit>
 		<Unit filename="/Users/phornsby/Documents/Work/LearnCPlusPlus/Chapters/Chapter2.cpp">
 			<Option target="LearnCPlusPlus"/>
 		</Unit>

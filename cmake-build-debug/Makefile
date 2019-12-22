@@ -123,6 +123,33 @@ LearnCPlusPlus/fast:
 	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/build
 .PHONY : LearnCPlusPlus/fast
 
+Chapters/Chapter.o: Chapters/Chapter.cpp.o
+
+.PHONY : Chapters/Chapter.o
+
+# target to build an object file
+Chapters/Chapter.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter.cpp.o
+.PHONY : Chapters/Chapter.cpp.o
+
+Chapters/Chapter.i: Chapters/Chapter.cpp.i
+
+.PHONY : Chapters/Chapter.i
+
+# target to preprocess a source file
+Chapters/Chapter.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter.cpp.i
+.PHONY : Chapters/Chapter.cpp.i
+
+Chapters/Chapter.s: Chapters/Chapter.cpp.s
+
+.PHONY : Chapters/Chapter.s
+
+# target to generate assembly for a file
+Chapters/Chapter.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter.cpp.s
+.PHONY : Chapters/Chapter.cpp.s
+
 Chapters/Chapter2.o: Chapters/Chapter2.cpp.o
 
 .PHONY : Chapters/Chapter2.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LearnCPlusPlus"
+	@echo "... Chapters/Chapter.o"
+	@echo "... Chapters/Chapter.i"
+	@echo "... Chapters/Chapter.s"
 	@echo "... Chapters/Chapter2.o"
 	@echo "... Chapters/Chapter2.i"
 	@echo "... Chapters/Chapter2.s"
