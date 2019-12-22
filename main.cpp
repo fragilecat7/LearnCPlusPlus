@@ -13,28 +13,13 @@ int main() {
     int test_int = 7;
 
     // Chapter 2
-    // output_chapter2();
     Chapter2 chapter2;
     chapter2.output();
 
     // Chapter 3
-    //output_chapter3();
-
-    //std::cout << collect_output_name_age() << "!\n";
-    //std::cout << collect_output_name_age_in_months() << "!\n";
-    //output_first_second_names();
-    //output_first_second_names_with_string_comparison();
-    //output_repeated_words();
-
-    // operators
-    //exercise_operators();
-    //exercise_int_operators();
-
-    //output_types_and_objects_list();
-    //output_narrowing_conversions();
-
-    // drill
-    //make_form_letter();
+    Chapter3 chapter3;
+    chapter3.output();
+    chapter3.make_form_letter();
 
 
     // The End

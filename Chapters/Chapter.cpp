@@ -20,17 +20,17 @@ Chapter::~Chapter() {
 void Chapter::output() {
 
     std::cout << "\nQuestions" << std::endl;
-    for (std::vector<std::string>::iterator it = questions.begin() ; it != questions.end(); ++it)
+    for (std::vector<std::string>::iterator it = questions.begin(); it != questions.end(); ++it)
         std::cout << '\n' << *it;
     std::cout << "\n\n";
 
     std::cout << "\nAnswers" << std::endl;
-    for (std::vector<std::string>::iterator it = answers.begin() ; it != answers.end(); ++it)
+    for (std::vector<std::string>::iterator it = answers.begin(); it != answers.end(); ++it)
         std::cout << '\n' << *it;
     std::cout << "\n\n";
 
-    std::cout << "\nItems related to Chapter 2" << std::endl;
-    for (std::vector<std::string>::iterator it = items.begin() ; it != items.end(); ++it)
+    std::cout << "\nItems related to the chapter" << std::endl;
+    for (std::vector<std::string>::iterator it = items.begin(); it != items.end(); ++it)
         std::cout << ", " << *it;
     std::cout << "\n\n";
 }

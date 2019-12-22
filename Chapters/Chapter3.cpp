@@ -9,53 +9,54 @@
 
 #include "Chapter3.h"
 
-std::vector<std::string> questions3 {"What is meant by the term prompt?",
-                                    "Which operator do you use to read into a variable?",
-                                    "If you want the user to input an integer value into your program for a variable named 'number', what are two lines of code you could write to ask the user to do it and to input the value into your pprogram?",
-                                    "What is '\\n' called and what purpose does it serve?\n"
-                                    "What terminates input into a string?",
-                                    "What terminates input into an integer?",
-                                    "How would you write the following code as one line?\n 'cout<<\"Hello, \"\n;cout<<first_name;\ncout<<'\n';'",
-                                    "What is an object?",
-                                    "What is a literal?",
-                                    "What kinds of literals are there?",
-                                    "What is a variable?",
-                                    "What are tyical sizes for a char, an int and a double?",
-                                    "What measures do we use for the size of small entities in memory, usch as int's and strings?"
-                                    "What is the difference between = and ==?",
-                                    "What is a definitation?",
-                                    "What is initialization and does it differ from assignment?",
-                                    "What is string concatenation and how do you make it work in C++?",
-                                    "Which of the following are legal names in C++? If a name is not legal, why not?\nThis_little_pig, This_1_is_fine, 2_For_1_special, latest thing, the_$12_method, _this_is_ok, MiniMineMine, number, correct?",
-                                    "Give five examples of legal names that you shouldn't use because they are likely to cause confusion",
-                                    "What are some good rules for choosing names?",
-                                    "What is type safety and why is it important?",
-                                    "Why can conversion from double to int be a bad thing?",
-                                    "Define a rule to help decide if a conversion from one type to another is safe or unsafe"};
+Chapter3::Chapter3() {
+    std::cout << "Chapter3 Constructor called" << std::endl;
+    Chapter3::questions = {"What is meant by the term prompt?",
+                "Which operator do you use to read into a variable?",
+                "If you want the user to input an integer value into your program for a variable named 'number', what are two lines of code you could write to ask the user to do it and to input the value into your pprogram?",
+                "What is '\\n' called and what purpose does it serve?\n"
+                "What terminates input into a string?",
+                "What terminates input into an integer?",
+                "How would you write the following code as one line?\n 'cout<<\"Hello, \"\n;cout<<first_name;\ncout<<'\n';'",
+                "What is an object?",
+                "What is a literal?",
+                "What kinds of literals are there?",
+                "What is a variable?",
+                "What are tyical sizes for a char, an int and a double?",
+                "What measures do we use for the size of small entities in memory, usch as int's and strings?"
+                "What is the difference between = and ==?",
+                "What is a definitation?",
+                "What is initialization and does it differ from assignment?",
+                "What is string concatenation and how do you make it work in C++?",
+                "Which of the following are legal names in C++? If a name is not legal, why not?\nThis_little_pig, This_1_is_fine, 2_For_1_special, latest thing, the_$12_method, _this_is_ok, MiniMineMine, number, correct?",
+                "Give five examples of legal names that you shouldn't use because they are likely to cause confusion",
+                "What are some good rules for choosing names?",
+                "What is type safety and why is it important?",
+                "Why can conversion from double to int be a bad thing?",
+                "Define a rule to help decide if a conversion from one type to another is safe or unsafe"};
 
-
-void output_chapter3() {
-
-    std::cout << "\nChapter 3 Questions" << std::endl;
-    for (std::vector<std::string>::iterator it = questions3.begin() ; it != questions3.end(); ++it)
-        std::cout << '\n' << *it;
-    std::cout << "\n\n";
-
-//    std::cout << "\nAnswers" << std::endl;
-//    for (std::vector<std::string>::iterator it = answers.begin() ; it != answers.end(); ++it)
-//        std::cout << '\n' << *it;
-//    std::cout << "\n\n";
-//
-//    std::cout << "\nItems you should know about :)" << std::endl;
-//    for (std::vector<std::string>::iterator it = items.begin() ; it != items.end(); ++it)
-//        std::cout << ", " << *it;
-//    std::cout << "\n\n";
 }
 
 
 
 
-std::string collect_output_name_age() {
+
+void Chapter3::output() {
+    std::cout << "\n\nProgramming Principles and Practice Using C++ \nChapter 3\n";
+    Chapter::output();
+}
+
+
+Chapter3::~Chapter3() {
+
+}
+
+
+
+
+
+
+std::string Chapter3::collect_output_name_age() {
     std::cout << "Please enter your first name and age:\n";
     std::string first_name = "???";
     int age = 0;
@@ -65,7 +66,7 @@ std::string collect_output_name_age() {
     return "Hello " + first_name + " (age: " + std::to_string(age) + ")";
 }
 
-std::string collect_output_name_age_in_months() {
+std::string Chapter3::Chapter3::collect_output_name_age_in_months() {
     std::cout << "Please enter your first name and age:\n";
     std::string first_name = "???";
     double age = 0;
@@ -78,7 +79,7 @@ std::string collect_output_name_age_in_months() {
 }
 
 
-void output_first_second_names() {
+void Chapter3::output_first_second_names() {
     std::cout << "Please enter your first and second names:\n";
     std::string first = "???";
     std::string second = "???";
@@ -90,7 +91,7 @@ void output_first_second_names() {
 }
 
 
-void output_first_second_names_with_string_comparison() {
+void Chapter3::output_first_second_names_with_string_comparison() {
     std::cout << "Please enter two names names:\n";
     std::string first = "???";
     std::string second = "???";
@@ -102,7 +103,7 @@ void output_first_second_names_with_string_comparison() {
 }
 
 
-void output_repeated_words() {
+void Chapter3::output_repeated_words() {
     int number_of_words = 0;
     std::string previous = "";
     std::string current;
@@ -116,7 +117,7 @@ void output_repeated_words() {
     }
 }
 
-void exercise_operators() {
+void Chapter3::exercise_operators() {
     std::cout << "Please enter a floating point value: ";
     double n;
     std::cin >> n;
@@ -131,7 +132,7 @@ void exercise_operators() {
                 << '\n';
 }
 
-void exercise_int_operators() {
+void Chapter3::exercise_int_operators() {
     std::cout << "Please enter a integer value: ";
     int n;
     std::cin >> n;
@@ -148,7 +149,7 @@ void exercise_int_operators() {
 }
 
 
-void output_types_and_objects_list() {
+void Chapter3::output_types_and_objects_list() {
     std::vector<std::string> list {"A 'type' defines a set of possible values and a set of operations (for an object) ",
                                         "A 'object' is some memory that holds a value of a given 'type'",
                                         "A 'value' is a set of bits in memory interpreted according to a 'type'",
@@ -163,7 +164,7 @@ void output_types_and_objects_list() {
 }
 
 
-void output_narrowing_conversions() {
+void Chapter3::output_narrowing_conversions() {
     double d = 0;
     while (std::cin >> d) {
         int i = d;
@@ -178,7 +179,7 @@ void output_narrowing_conversions() {
 }
 
 
-void make_form_letter() {
+void Chapter3::make_form_letter() {
     std::cout << "\nWelcome to  Cheap & Cheerful Form letter Productions!\n";
     std::cout << "\nPlease enter your name: ";
     std::string from_name;

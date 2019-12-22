@@ -12,10 +12,13 @@ void output_chapter2();
 class Chapter2 : public Chapter {
 
 public:
+    // constructor
     Chapter2();
 
+    // deconstructor
     virtual ~Chapter2();
 
+    // Chapter's content
     void output() override;
 
 };

@@ -12,17 +12,20 @@
 class Chapter {
 
 public:
-    std::vector<std::string> questions;
 
-    std::vector<std::string> questions1;
+    // Chapter end questions
+    std::vector<std::string> questions;
     std::vector<std::string> answers;
     std::vector<std::string> items;
 
+    // constructor
     Chapter();
 
-    virtual void output();
-
+    //deconstructor
     virtual ~Chapter();
+
+    // For subclasses
+    virtual void output();
 };
 
 

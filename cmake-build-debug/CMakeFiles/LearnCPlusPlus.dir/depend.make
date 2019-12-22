@@ -8,6 +8,7 @@ CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o: ../Chapters/Chapter.h
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o: ../Chapters/Chapter2.cpp
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o: ../Chapters/Chapter2.h
 
+CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o: ../Chapters/Chapter.h
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o: ../Chapters/Chapter3.cpp
 CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o: ../Chapters/Chapter3.h
 

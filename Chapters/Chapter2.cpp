@@ -6,7 +6,6 @@
 
 
 Chapter2::Chapter2() {
-
     std::cout << "Chapter2 Constructor called" << std::endl;
 
     Chapter2::questions = {"What is the purpose of the \"Hello World!\" program?",
