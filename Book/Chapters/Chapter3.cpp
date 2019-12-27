@@ -257,3 +257,10 @@ void Chapter3::make_form_letter() {
                 << "\n\n";
 
 }
+
+
+
+void Chapter3::mile_to_kilometer() {
+    /// 1 mile == 1.609 kilometers
+
+}

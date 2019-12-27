@@ -3,7 +3,7 @@ Working through  the book `Programming Principles and Practice Using C++` by [Bj
 
 ## Chapter 1
 
-Insprational,liked to see [R A Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein) referenced, glanced through the rest. Very much a traditional textbook setup.
+Inspirational, liked to see [R A Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein) referenced, glanced through the rest. Very much a traditional textbook setup.
 
 ## Chapter 2
 
