@@ -1,5 +1,5 @@
 //#include "std_lib_facilities.h"
-#include "Book.h"
+#include "Book/Book.h"
 
 
 
@@ -16,8 +16,10 @@ int main() {
 
     // Chapter 3
     Chapter3 chapter3;
-    chapter3.output();
-    chapter3.make_form_letter();
+    //chapter3.output();
+    //chapter3.make_form_letter();
+    //chapter3.exercise_operators();
+    chapter3.output_types_and_objects_list();
 
 
     // The End

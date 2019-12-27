@@ -123,86 +123,86 @@ LearnCPlusPlus/fast:
 	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/build
 .PHONY : LearnCPlusPlus/fast
 
-Chapters/Chapter.o: Chapters/Chapter.cpp.o
+Book/Chapters/Chapter.o: Book/Chapters/Chapter.cpp.o
 
-.PHONY : Chapters/Chapter.o
-
-# target to build an object file
-Chapters/Chapter.cpp.o:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter.cpp.o
-.PHONY : Chapters/Chapter.cpp.o
-
-Chapters/Chapter.i: Chapters/Chapter.cpp.i
-
-.PHONY : Chapters/Chapter.i
-
-# target to preprocess a source file
-Chapters/Chapter.cpp.i:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter.cpp.i
-.PHONY : Chapters/Chapter.cpp.i
-
-Chapters/Chapter.s: Chapters/Chapter.cpp.s
-
-.PHONY : Chapters/Chapter.s
-
-# target to generate assembly for a file
-Chapters/Chapter.cpp.s:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter.cpp.s
-.PHONY : Chapters/Chapter.cpp.s
-
-Chapters/Chapter2.o: Chapters/Chapter2.cpp.o
-
-.PHONY : Chapters/Chapter2.o
+.PHONY : Book/Chapters/Chapter.o
 
 # target to build an object file
-Chapters/Chapter2.cpp.o:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.o
-.PHONY : Chapters/Chapter2.cpp.o
+Book/Chapters/Chapter.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.o
+.PHONY : Book/Chapters/Chapter.cpp.o
 
-Chapters/Chapter2.i: Chapters/Chapter2.cpp.i
+Book/Chapters/Chapter.i: Book/Chapters/Chapter.cpp.i
 
-.PHONY : Chapters/Chapter2.i
+.PHONY : Book/Chapters/Chapter.i
 
 # target to preprocess a source file
-Chapters/Chapter2.cpp.i:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.i
-.PHONY : Chapters/Chapter2.cpp.i
+Book/Chapters/Chapter.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.i
+.PHONY : Book/Chapters/Chapter.cpp.i
 
-Chapters/Chapter2.s: Chapters/Chapter2.cpp.s
+Book/Chapters/Chapter.s: Book/Chapters/Chapter.cpp.s
 
-.PHONY : Chapters/Chapter2.s
+.PHONY : Book/Chapters/Chapter.s
 
 # target to generate assembly for a file
-Chapters/Chapter2.cpp.s:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter2.cpp.s
-.PHONY : Chapters/Chapter2.cpp.s
+Book/Chapters/Chapter.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.s
+.PHONY : Book/Chapters/Chapter.cpp.s
 
-Chapters/Chapter3.o: Chapters/Chapter3.cpp.o
+Book/Chapters/Chapter2.o: Book/Chapters/Chapter2.cpp.o
 
-.PHONY : Chapters/Chapter3.o
+.PHONY : Book/Chapters/Chapter2.o
 
 # target to build an object file
-Chapters/Chapter3.cpp.o:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.o
-.PHONY : Chapters/Chapter3.cpp.o
+Book/Chapters/Chapter2.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o
+.PHONY : Book/Chapters/Chapter2.cpp.o
 
-Chapters/Chapter3.i: Chapters/Chapter3.cpp.i
+Book/Chapters/Chapter2.i: Book/Chapters/Chapter2.cpp.i
 
-.PHONY : Chapters/Chapter3.i
+.PHONY : Book/Chapters/Chapter2.i
 
 # target to preprocess a source file
-Chapters/Chapter3.cpp.i:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.i
-.PHONY : Chapters/Chapter3.cpp.i
+Book/Chapters/Chapter2.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.i
+.PHONY : Book/Chapters/Chapter2.cpp.i
 
-Chapters/Chapter3.s: Chapters/Chapter3.cpp.s
+Book/Chapters/Chapter2.s: Book/Chapters/Chapter2.cpp.s
 
-.PHONY : Chapters/Chapter3.s
+.PHONY : Book/Chapters/Chapter2.s
 
 # target to generate assembly for a file
-Chapters/Chapter3.cpp.s:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Chapters/Chapter3.cpp.s
-.PHONY : Chapters/Chapter3.cpp.s
+Book/Chapters/Chapter2.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.s
+.PHONY : Book/Chapters/Chapter2.cpp.s
+
+Book/Chapters/Chapter3.o: Book/Chapters/Chapter3.cpp.o
+
+.PHONY : Book/Chapters/Chapter3.o
+
+# target to build an object file
+Book/Chapters/Chapter3.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o
+.PHONY : Book/Chapters/Chapter3.cpp.o
+
+Book/Chapters/Chapter3.i: Book/Chapters/Chapter3.cpp.i
+
+.PHONY : Book/Chapters/Chapter3.i
+
+# target to preprocess a source file
+Book/Chapters/Chapter3.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.i
+.PHONY : Book/Chapters/Chapter3.cpp.i
+
+Book/Chapters/Chapter3.s: Book/Chapters/Chapter3.cpp.s
+
+.PHONY : Book/Chapters/Chapter3.s
+
+# target to generate assembly for a file
+Book/Chapters/Chapter3.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.s
+.PHONY : Book/Chapters/Chapter3.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,15 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LearnCPlusPlus"
-	@echo "... Chapters/Chapter.o"
-	@echo "... Chapters/Chapter.i"
-	@echo "... Chapters/Chapter.s"
-	@echo "... Chapters/Chapter2.o"
-	@echo "... Chapters/Chapter2.i"
-	@echo "... Chapters/Chapter2.s"
-	@echo "... Chapters/Chapter3.o"
-	@echo "... Chapters/Chapter3.i"
-	@echo "... Chapters/Chapter3.s"
+	@echo "... Book/Chapters/Chapter.o"
+	@echo "... Book/Chapters/Chapter.i"
+	@echo "... Book/Chapters/Chapter.s"
+	@echo "... Book/Chapters/Chapter2.o"
+	@echo "... Book/Chapters/Chapter2.i"
+	@echo "... Book/Chapters/Chapter2.s"
+	@echo "... Book/Chapters/Chapter3.o"
+	@echo "... Book/Chapters/Chapter3.i"
+	@echo "... Book/Chapters/Chapter3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

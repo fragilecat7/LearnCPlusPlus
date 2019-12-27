@@ -5,8 +5,8 @@
 #ifndef LEARNCPLUSPLUS_BOOK_H
 #define LEARNCPLUSPLUS_BOOK_H
 
-#include "Chapters/Chapter.h"
-#include "Chapters/Chapter2.h"
-#include "Chapters/Chapter3.h"
+#include "../Book/Chapters/Chapter.h"
+#include "../Book/Chapters/Chapter2.h"
+#include "../Book/Chapters/Chapter3.h"
 
 #endif //LEARNCPLUSPLUS_BOOK_H
