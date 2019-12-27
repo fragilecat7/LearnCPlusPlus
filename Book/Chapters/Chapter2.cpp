@@ -20,17 +20,17 @@ Chapter2::Chapter2() {
                                      "What is an IDE and what does it do for you?",
                                      "If you understand everything in the textbook, why is it necessary to practice?"};
 
-    Chapter2::answers =  {"1",
-                          "2",
-                          "3",
-                          "4",
-                          "5",
-                          "6",
-                          "7",
-                          "8",
-                          "9",
-                          "10",
-                          "11"};
+    Chapter2::answers =  {"1. To serve as an introductory example into a  programing language, in this case c++.",
+                          "2. body, return type, name, parameter list",
+                          "3. The function that must appear in every c++ program is `main()`",
+                          "4. There is a tradition of returning the int 0 to indicate the function completed correctly, without error.",
+                          "5. To convert the source code to object code, the object code is the executable",
+                          "6. Means make available the contents of the file in the file that has the #include statement",
+                          "7. `.h` indicates the file is a header file that generally contains definitions of terms.",
+                          "8 The linker  links all the source files together into a program",
+                          "9 The difference between a source file and object file is that the source file is what is written by the programmer and is transportable to another machine. Object code is the output from compiling the source file and is not human readable or transferable. ",
+                          "10 `Integrated Development Environment` - it provides a configurable environment tailored to the language it was built for, removing many mundane tasks",
+                          "11 Practice makes perfect, well it helps a lot!"};
 
     Chapter2::items = {"//",
                        "<<",
