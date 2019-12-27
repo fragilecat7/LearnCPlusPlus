@@ -19,8 +19,8 @@ int main() {
     chapter3.output();
     //chapter3.make_form_letter();
     //chapter3.exercise_operators();
-    chapter3.mile_to_kilometer();
-
+    //chapter3.mile_to_kilometer();
+    chapter3.operate_on_double();
 
     // The End
     std::string s = "Goodbye, cruel world!";

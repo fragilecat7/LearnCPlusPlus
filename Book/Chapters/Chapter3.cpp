@@ -310,3 +310,100 @@ void Chapter3::silly_names_that_break_it() {
 }
 
 
+void Chapter3::operate_on() {
+    std::cout << "\nCheap & Cheerful Productions operator!! " << '\n';
+    std::cout << "Please enter your first integer value: ";
+    int first;
+    std::cin >> first;
+
+    std::cout << "Please enter your second integer value: ";
+    int second;
+    std::cin >> second;
+
+
+    std::cout << "The operations begin..." << '\n';
+    if (first > second) {
+        std::cout << "the number " << first  << " is greater than the number " << second << '\n';
+        std::cout << "the number " << second  << " is smaller than the number " << first << '\n';
+    } else if (first < second) {
+        std::cout << "the number " << second  << " is greater than the number " << first << '\n';
+        std::cout << "the number " << first  << " is smaller than the number " << second << '\n';
+    } else if (first == second) {
+        std::cout << "There are two instances of the same number, the number " << second  << " is equal to the number " << first << '\n';
+    }
+
+    std::cout << "The sum of " << first << " + " << second << " is " << first + second << '\n';
+    std::cout << "The difference of " << first << " - " << second << " is " << first - second << '\n';
+    std::cout << "The product of " << first << " * " << second << " is " << first * second << '\n';
+    std::cout << "The ratio of " << first << " / " << second << " is " << first / second << '\n';
+}
+
+
+void Chapter3::operate_on_double() {
+
+    std::cout << "\nCheap & Cheerful Productions type double operator!! " << '\n';
+    std::cout << "Please enter your first floating point value: ";
+    double first;
+    std::cin >> first;
+
+    std::cout << "Please enter your second floating point value: ";
+    double second;
+    std::cin >> second;
+
+
+    std::cout << "The operations begin..." << '\n';
+    if (first > second) {
+        std::cout << "the number " << first  << " is greater than the number " << second << '\n';
+        std::cout << "the number " << second  << " is smaller than the number " << first << '\n';
+    } else if (first < second) {
+        std::cout << "the number " << second  << " is greater than the number " << first << '\n';
+        std::cout << "the number " << first  << " is smaller than the number " << second << '\n';
+    } else if (first == second) {
+        std::cout << "There are two instances of the same number, the number " << second  << " is equal to the number " << first << '\n';
+    }
+
+    std::cout << "The sum of " << first << " + " << second << " is " << first + second << '\n';
+    std::cout << "The difference of " << first << " - " << second << " is " << first - second << '\n';
+    std::cout << "The product of " << first << " * " << second << " is " << first * second << '\n';
+    std::cout << "The ratio of " << first << " / " << second << " is " << first / second << '\n';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

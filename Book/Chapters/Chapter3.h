@@ -41,7 +41,8 @@ public:
     void mile_to_kilometer();
 
     void silly_names_that_break_it();
-
+    void operate_on();
+    void operate_on_double();
 };
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
