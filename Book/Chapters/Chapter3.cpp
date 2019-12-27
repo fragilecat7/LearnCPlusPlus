@@ -6,6 +6,8 @@
 #include <cstdio>
 #include <cmath>
 #include <vector>
+#include <cstring>
+
 
 #include "Chapter3.h"
 
@@ -263,4 +265,31 @@ void Chapter3::make_form_letter() {
 void Chapter3::mile_to_kilometer() {
     /// 1 mile == 1.609 kilometers
 
+    double value = 0;
+    std::string prompt = "Would you like to convert miles to kilometers(y/n)?";
+
+    std::cout << "\nCheap & Cheerful Productions gives you the miles/kilometer converter!! ";
+    std::string user_input;
+
+    std::cout << prompt << '\n';
+    while (user_input.compare("y") != 0 && user_input.compare("n") != 0)  {
+        std::cout << prompt << '\n';
+        std::cin >> user_input;
+    }
+
+    if (user_input.compare("y") == 0) {
+        // miles to kilometers
+        std::cout << "Please enter the number of miles:" << '\n';
+        std::cin >> value;
+
+        std::cout << "Answwer: " << value << " mile(s)  is " << value * 1.609 << " kilometer(s)" << '\n';
+    } else if (user_input.compare("n") == 0) {
+        std::cout << "Please enter the number of kilometers:" << '\n';
+        std::cin >> value;
+        std::cout << "Answwer: " << value << " kilometer(s)  is " << value / 1.609 << " mile(s)" << '\n';
+    } else {
+        std::cout << "Your on your own oon that one dog!" << '\n':
+    }
 }
+
+
