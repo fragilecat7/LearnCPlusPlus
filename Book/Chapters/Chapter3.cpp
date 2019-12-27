@@ -298,3 +298,15 @@ void Chapter3::mile_to_kilometer() {
 }
 
 
+
+void Chapter3::silly_names_that_break_it() {
+
+    std::string fine = "";
+    //std::string no good = "wtf?"; // fail
+    //int silly&name = 7; // fail
+    int number = 7;
+    //double incorrect? = 7.7; // fail
+    double correct = 7.7;
+}
+
+

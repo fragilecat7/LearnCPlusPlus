@@ -40,6 +40,8 @@ public:
     void make_form_letter();
     void mile_to_kilometer();
 
+    void silly_names_that_break_it();
+
 };
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
