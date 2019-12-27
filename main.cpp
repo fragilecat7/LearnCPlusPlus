@@ -19,7 +19,7 @@ int main() {
     chapter3.output();
     //chapter3.make_form_letter();
     //chapter3.exercise_operators();
-    chapter3.output_types_and_objects_list();
+    chapter3.mile_to_kilometer();
 
 
     // The End

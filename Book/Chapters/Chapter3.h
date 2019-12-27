@@ -38,6 +38,7 @@ public:
 
 
     void make_form_letter();
+    void mile_to_kilometer();
 
 };
 
