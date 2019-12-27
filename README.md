@@ -41,7 +41,9 @@ Hello `operators`
 
 ### Notes
 - Directory structure reordered to reflect book structure
-- Using classes to represnet chapters
+- Using classes to represent chapters
+- Base class for `Chapter`, playing with fire, but it is keeping me warm! 
+- Added `Book` header to help organize project better (headers: learn more)
 - added `README` 
 
 
