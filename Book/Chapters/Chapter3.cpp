@@ -369,7 +369,28 @@ void Chapter3::operate_on_double() {
 }
 
 
+void Chapter3::numerical_sequence() {
+    std::cout << "\nCheap & Cheerful Productions Numerical Squencer!! " << '\n';
 
+    std::cout << "Please enter your first integer value: ";
+    int first;
+    std::cin >> first;
+
+    std::cout << "Please enter your second integer value: ";
+    int second;
+    std::cin >> second;
+
+    std::cout << "Please enter your third integer value: ";
+    int third;
+    std::cin >> third;
+
+    std::cout << "The original sequence is " << first << ", " << second << ", " << third << '\n';
+
+
+    int sequence[3] =  {first, second, third};
+    std::sort(sequence, sequence + 3);
+    std::cout << "The numerical sequence is " << sequence[0] << ", " <<sequence[1] << ", " << sequence[2] << '\n';
+}
 
 
 

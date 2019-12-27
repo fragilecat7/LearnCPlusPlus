@@ -43,6 +43,7 @@ public:
     void silly_names_that_break_it();
     void operate_on();
     void operate_on_double();
+    void numerical_sequence();
 };
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
