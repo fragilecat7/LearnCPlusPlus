@@ -37,7 +37,7 @@ My thoughts here, are that I should read that daily for a while...
 
 `Type Conversions`, two types, ah. Safe and Unsafe.  Explain narrowing?
 
-Hello `operators`
+Hello `operators` and `variables`, we will be doing more fun stuff presently with you guys!
 
 ### Notes
 - Directory structure reordered to reflect book structure
