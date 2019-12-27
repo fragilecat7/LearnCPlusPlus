@@ -35,6 +35,38 @@ Chapter3::Chapter3() {
                 "Why can conversion from double to int be a bad thing?",
                 "Define a rule to help decide if a conversion from one type to another is safe or unsafe"};
 
+
+    Chapter3::answers =  {"1. ```A prompt is text or symbols used to represent the system's readiness to perform the next command.```  \n - [reference: computerhope.com](https://www.computerhope.com/jargon/p/prompt.htm)",
+                          "2. To read into a variable you use the `operator>>` called the extraction operator, see [std::operator>> (string)](http://www.cplusplus.com/reference/string/string/operator%3E%3E/)",
+                          "3.",
+                          "4. '\n' is the `newline` character and it is a control character.",
+                          "5. Any `whitespace` character will terminate a string, that is a newline, tab or space character",
+                          "6. Any `whitespace` character will terminate a string, that is a newline, tab or space character as as a string" ,
+                          "7.  ```cout << \"Hello, \" << first_name << \"!\n\";```",
+                          "8. Pers section 3.8, ```A object is some memory that holds a value of a given type",
+                          "9. A literal is literally the value that is assigned to a type and are  a constant.",
+                          "10. fAn example int  literal ```int = 7;`, there int, float, char, string and boolean literals in c++",
+                          "11. A variable is a named object!"};
+
+
+    Chapter3::items = {"assignment",
+                       "cin",
+                       "concatenation",
+                       "conversion",
+                       "declaration",
+                       "decrement",
+                       "increment",
+                       "initialization",
+                       "name",
+                       "narrowing",
+                       "object",
+                       "operation",
+                       "operator",
+                       "type",
+                       "type safety",
+                       "value",
+                       "variable"};
+
 }
 
 
