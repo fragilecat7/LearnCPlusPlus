@@ -277,18 +277,23 @@ void Chapter3::mile_to_kilometer() {
         std::cin >> user_input;
     }
 
+
+
     if (user_input.compare("y") == 0) {
         // miles to kilometers
         std::cout << "Please enter the number of miles:" << '\n';
         std::cin >> value;
+
+        if (value == 0) {
+            std::cout << "Zero? Your on your own with that one, dog!" << '\n';
+            return;
+        }
 
         std::cout << "Answwer: " << value << " mile(s)  is " << value * 1.609 << " kilometer(s)" << '\n';
     } else if (user_input.compare("n") == 0) {
         std::cout << "Please enter the number of kilometers:" << '\n';
         std::cin >> value;
         std::cout << "Answwer: " << value << " kilometer(s)  is " << value / 1.609 << " mile(s)" << '\n';
-    } else {
-        std::cout << "Your on your own oon that one dog!" << '\n':
     }
 }
 
