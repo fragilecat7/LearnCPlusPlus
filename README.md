@@ -9,7 +9,7 @@ Insprational,liked to see [R A Heinlein](https://en.wikipedia.org/wiki/Robert_A.
 
 Rubber hits the road, or it should do and lets confirm it here. I choose to use [Clion](https://www.jetbrains.com/clion/features/) as my IDE as I have used [JetBrian's products](https://www.jetbrains.com) and rather like them. 
 
-### Accomplishments
+### Notes
 
 - Hello `main()`!
 - What is this header `std_lib_facilities.h`?
@@ -39,7 +39,7 @@ My thoughts here, are that I should read that daily for a while...
 
 Hello `operators`
 
-### Accomplishments
+### Notes
 - Directory structure reordered to reflect book structure
 - Using classes to represnet chapters
 - added `README` 
