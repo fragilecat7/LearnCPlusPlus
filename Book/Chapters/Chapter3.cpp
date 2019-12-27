@@ -42,9 +42,9 @@ Chapter3::Chapter3() {
                           "4. '\\n' is the `newline` character and it is a control character.",
                           "5. Any `whitespace` character will terminate a string, that is a newline, tab or space character",
                           "6. Any `whitespace` character will terminate a string, that is a newline, tab or space character as with a string" ,
-                          "7.  cout << \"Hello, \" << first_name << \"!\n\";",
-                          "8. Pers section 3.8, ```A object is some memory that holds a value of a given type",
-                          "9. A literal is literally the value that is assigned to a type and are  a constant.",
+                          "7.  cout << \"Hello, \" << first_name << \"!\\n\";",
+                          "8. Pers section 3.8, 'A object is some memory that holds a value of a given type'",
+                          "9. A literal is literally the value that is assigned to a type and are  considered a constant.",
                           "10. An example int literal `int = 7;`, there are int, float, char, string and boolean literals in c++",
                           "11. A variable is a named object!"};
 
