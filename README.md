@@ -48,6 +48,3 @@ Hello `operators` and `variables`, we will be doing more fun stuff presently wit
 - Very useful to play with `std::cin` and `std::cout`, better conceptual model, see $ amount output for piggybank coin counter
 
 
-
-Now back to the drill and review section :)
-
