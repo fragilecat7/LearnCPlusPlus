@@ -45,6 +45,8 @@ Hello `operators` and `variables`, we will be doing more fun stuff presently wit
 - Base class for `Chapter`, playing with fire, but it is keeping me warm! 
 - Added `Book` header to help organize project better (headers: learn more)
 - added `README` 
+- Very useful to play with `std::cin` and `std::cout`, better conceptual model, see $ amount output for piggybank coin counter
+
 
 
 Now back to the drill and review section :)
