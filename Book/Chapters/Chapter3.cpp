@@ -370,7 +370,7 @@ void Chapter3::operate_on_double() {
 
 
 void Chapter3::numerical_sequence() {
-    std::cout << "\nCheap & Cheerful Productions Numerical Squencer!! " << '\n';
+    std::cout << "\nCheap & Cheerful Production's Numerical Sequencer!! " << '\n';
 
     std::cout << "Please enter your first integer value: ";
     int first;
@@ -394,7 +394,7 @@ void Chapter3::numerical_sequence() {
 
 
 void Chapter3::string_sequence() {
-    std::cout << "\nCheap & Cheerful Productions Numerical Squencer!! " << '\n';
+    std::cout << "\nCheap & Cheerful Production's Numerical Sequencer!! " << '\n';
 
     std::cout << "Please enter your first string value: ";
     std::string first;
@@ -418,6 +418,19 @@ void Chapter3::string_sequence() {
 
 
 
+void Chapter3::odd_or_even() {
+    std::cout << "\nCheap & Cheerful Production's Odd or Even Detector!! " << '\n';
+    std::cout << "Please enter the integer interested in: ";
+    int input;
+    std::cin >> input;
+
+    if (input % 2 == 1) {
+        std::cout << "You have an odd number " << input << " my friend, you have not chosen the darkside have you?" << '\n';
+    } else {
+        std::cout << "You have an even number " << input << " my friend, may the force be with you" << '\n';
+    }
+
+}
 
 
 

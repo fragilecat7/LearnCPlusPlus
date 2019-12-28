@@ -22,8 +22,8 @@ int main() {
     //chapter3.mile_to_kilometer();
     //chapter3.operate_on_double();
     //chapter3.numerical_sequence();
-    chapter3.string_sequence();
-
+    //chapter3.string_sequence();
+    chapter3.odd_or_even();
     // The End
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';

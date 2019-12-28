@@ -45,6 +45,7 @@ public:
     void operate_on_double();
     void numerical_sequence();
     void string_sequence();
+    void odd_or_even();
 };
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
