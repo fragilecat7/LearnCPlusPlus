@@ -7,6 +7,8 @@
 #include <cmath>
 #include <vector>
 #include <cstring>
+#include <cstdlib>
+#include <sstream>
 
 
 #include "Chapter3.h"
@@ -27,7 +29,7 @@ Chapter3::Chapter3() {
                 "What are tyical sizes for a char, an int and a double?",
                 "What measures do we use for the size of small entities in memory, usch as int's and strings?"
                 "What is the difference between = and ==?",
-                "What is a definitation?",
+                "What is a definition?",
                 "What is initialization and does it differ from assignment?",
                 "What is string concatenation and how do you make it work in C++?",
                 "Which of the following are legal names in C++? If a name is not legal, why not?\nThis_little_pig, This_1_is_fine, 2_For_1_special, latest thing, the_$12_method, _this_is_ok, MiniMineMine, number, correct?",
@@ -420,7 +422,7 @@ void Chapter3::string_sequence() {
 
 void Chapter3::odd_or_even() {
     std::cout << "\nCheap & Cheerful Production's Odd or Even Detector!! " << '\n';
-    std::cout << "Please enter the integer interested in: ";
+    std::cout << "Please enter the integer your interested in: ";
     int input;
     std::cin >> input;
 
@@ -432,6 +434,44 @@ void Chapter3::odd_or_even() {
 
 }
 
+void Chapter3::words_to_numbers() {
+    std::cout << "\nCheap & Cheerful Production's Words to Numbers Processor!! " << '\n';
+    std::cout << "Please enter that spelt out integer your interested in: ";
+    std::string input = "";
+    std::cin >> input;
+    int integer = -1;
+
+    if (input == "zero") {
+        integer = 0;
+
+    } else if (input == "one") {
+        integer = 1;
+    }  else if (input == "two") {
+        integer = 2;
+    }  else if (input == "three") {
+        integer = 3;
+    }  else if (input == "four") {
+        integer = 4;
+    }  else if (input == "five") {
+        integer = 5;
+    }  else if (input == "six") {
+        integer = 6;
+    }  else if (input == "seven") {
+        integer = 7;
+    }  else if (input == "eight") {
+        integer = 8;
+    }  else if (input == "nine") {
+        integer = 9;
+    }  else if (input == "ten") {
+        integer = 10;
+    }  else {
+        std::cout << "I know not what you seek... " << '\n';
+        return;
+    }
+
+        std::cout << "The integer you seek is " << integer << " from the word " << input << '\n';
+
+}
 
 
 

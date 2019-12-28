@@ -27,6 +27,10 @@ vector
 -
 cstring
 -
+cstdlib
+-
+sstream
+-
 Chapter3.h
 /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter3.h
 

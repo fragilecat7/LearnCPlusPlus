@@ -23,7 +23,8 @@ int main() {
     //chapter3.operate_on_double();
     //chapter3.numerical_sequence();
     //chapter3.string_sequence();
-    chapter3.odd_or_even();
+    //chapter3.odd_or_even();
+    chapter3.words_to_numbers();
     // The End
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';
