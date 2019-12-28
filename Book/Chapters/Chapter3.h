@@ -8,6 +8,10 @@
 #ifndef LEARNCPLUSPLUS_CHAPTER3_H
 #define LEARNCPLUSPLUS_CHAPTER3_H
 
+namespace pjh {
+
+}
+
 class Chapter3 : public Chapter {
 
 public:
@@ -48,6 +52,7 @@ public:
     void odd_or_even();
     void words_to_numbers();
     void operation_first_operands_second();
+    void counting_pennies();
 };
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H

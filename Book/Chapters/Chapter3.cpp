@@ -2,13 +2,12 @@
 // Created by Peter Hornsby on 12/13/19.
 //
 #include <iostream>
+#include <iomanip>
 #include <string>
-#include <cstdio>
 #include <cmath>
 #include <vector>
-#include <cstring>
 #include <cstdlib>
-#include <sstream>
+
 
 
 #include "Chapter3.h"
@@ -492,7 +491,89 @@ void Chapter3::operation_first_operands_second() {
 }
 
 
+void Chapter3::counting_pennies() {
 
+
+    std::cout << "\nCheap & Cheerful Production's piggy bank coin counter!! " << '\n';
+    int inital_value = -1;
+    int pennies = inital_value;
+    int nickels = inital_value;
+    int dimes = inital_value;
+    int quarters = inital_value;
+    int half_dollars = inital_value;
+    int one_dollars = inital_value;
+    std::string prompt = "Please enter the number of pennies: ";
+    while (true)  {
+        if (pennies == inital_value) {
+            std::cout << prompt;
+            std::cin >> pennies;
+        } else if (nickels == inital_value) {
+            prompt = "Please enter the number of nickels: ";
+            std::cout << prompt;
+            std::cin >> nickels;
+        } else if (dimes == inital_value) {
+            prompt = "Please enter the number of dimes: ";
+            std::cout << prompt;
+            std::cin >> dimes;
+        } else if (quarters == inital_value) {
+            prompt = "Please enter the number of quarters: ";
+            std::cout << prompt;
+            std::cin >> quarters;
+        } else if (half_dollars == inital_value) {
+            prompt = "Please enter the number of half dollars coins: ";
+            std::cout << prompt;
+            std::cin >> half_dollars;
+        } else if (one_dollars == inital_value) {
+            prompt = "Please enter the number of one dollar coins: ";
+            std::cout << prompt;
+            std::cin >> one_dollars;
+        }
+
+        if (pennies != inital_value && nickels != inital_value && dimes != inital_value && quarters != inital_value
+            && half_dollars != inital_value && one_dollars != inital_value) {
+            break;
+        }
+    }
+
+    prompt = "We  will now count your coins for a grand total!";
+    std::cout << prompt << '\n';
+    if (pennies != 0) {
+        std::cout << "You have " << pennies << (pennies == 1 ? " penny.":  " pennies.") << '\n';
+    }
+
+    if (nickels != 0) {
+        std::cout << "You have " << nickels << (nickels == 1 ? " nickel.":  " nickels.") << '\n';
+    }
+
+    if (dimes != 0) {
+        std::cout << "You have " << dimes << (dimes == 1 ? " dime.":  " dimes.") << '\n';
+    }
+
+    if (quarters != 0) {
+        std::cout << "You have " << quarters << (quarters == 1 ? " quarter.":  " quarters.") << '\n';
+    }
+
+    if (half_dollars != 0) {
+        std::cout << "You have " << half_dollars << (half_dollars == 1 ? " half dollar.":  " half dollars.") <<  '\n';
+    }
+
+    if (one_dollars != 0) {
+        std::cout << "You have " << one_dollars << (one_dollars == 1 ? " dollar.":  " dollars.") <<  '\n';
+    }
+
+    int total = pennies + (5 * nickels) + (10 * dimes) + (50 * half_dollars) + (100 * one_dollars);
+
+    std::cout << "Because we are penny wise...\nYou have " << total << " cents!" << '\n';
+
+    if (total < 1000) {
+        std::cout << "You should keep saving!" << '\n';
+    }
+
+    double total_dollars = (total / 100);
+    if (total_dollars > 1) {
+        std::cout << "That is $" << std::fixed << std::setprecision(2) << total_dollars << "!" << '\n';
+    }
+}
 
 
 
