@@ -443,38 +443,53 @@ void Chapter3::words_to_numbers() {
 
     if (input == "zero") {
         integer = 0;
-
     } else if (input == "one") {
         integer = 1;
-    }  else if (input == "two") {
+    } else if (input == "two") {
         integer = 2;
-    }  else if (input == "three") {
+    } else if (input == "three") {
         integer = 3;
-    }  else if (input == "four") {
+    } else if (input == "four") {
         integer = 4;
-    }  else if (input == "five") {
+    } else if (input == "five") {
         integer = 5;
-    }  else if (input == "six") {
+    } else if (input == "six") {
         integer = 6;
-    }  else if (input == "seven") {
+    } else if (input == "seven") {
         integer = 7;
-    }  else if (input == "eight") {
+    } else if (input == "eight") {
         integer = 8;
-    }  else if (input == "nine") {
+    } else if (input == "nine") {
         integer = 9;
-    }  else if (input == "ten") {
+    } else if (input == "ten") {
         integer = 10;
-    }  else {
+    } else {
         std::cout << "I know not what you seek... " << '\n';
         return;
     }
 
         std::cout << "The integer you seek is " << integer << " from the word " << input << '\n';
-
 }
 
 
+void Chapter3::operation_first_operands_second() {
+    std::cout << "\nCheap & Cheerful Production's operation first style!! " << '\n';
+    std::cout << "Please enter the operation followed by the operands: ";
+    std::string operation;
+    double first;
+    double second;
+    std::cin >> operation >> first >> second;
 
+    if (operation == "+") {
+        std::cout << operation << " " << first << " " << second <<  " == " << first + second <<'\n';
+    } else if (operation == "-") {
+        std::cout << operation << " " << first << " " << second <<  " == " << first - second <<'\n';
+    } else if (operation == "*") {
+        std::cout << operation << " " << first << " " << second <<  " == " << first * second <<'\n';
+    } else if (operation == "/") {
+        std::cout << operation << " " << first << " " << second <<  " == " << first / second <<'\n';
+    }
+}
 
 
 

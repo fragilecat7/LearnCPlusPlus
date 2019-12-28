@@ -24,7 +24,9 @@ int main() {
     //chapter3.numerical_sequence();
     //chapter3.string_sequence();
     //chapter3.odd_or_even();
-    chapter3.words_to_numbers();
+    //chapter3.words_to_numbers();
+    chapter3.operation_first_operands_second();
+
     // The End
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';

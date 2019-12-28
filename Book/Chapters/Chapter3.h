@@ -47,6 +47,7 @@ public:
     void string_sequence();
     void odd_or_even();
     void words_to_numbers();
+    void operation_first_operands_second();
 };
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
