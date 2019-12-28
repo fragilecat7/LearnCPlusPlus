@@ -393,6 +393,30 @@ void Chapter3::numerical_sequence() {
 }
 
 
+void Chapter3::string_sequence() {
+    std::cout << "\nCheap & Cheerful Productions Numerical Squencer!! " << '\n';
+
+    std::cout << "Please enter your first string value: ";
+    std::string first;
+    std::cin >> first;
+
+    std::cout << "Please enter your second string value: ";
+    std::string second;
+    std::cin >> second;
+
+    std::cout << "Please enter your third string value: ";
+    std::string third;
+    std::cin >> third;
+
+    std::cout << "The original sequence is " << first << ", " << second << ", " << third << '\n';
+
+
+    std::string sequence[3] =  {first, second, third};
+    std::sort(sequence, sequence + 3);
+    std::cout << "The sorted string sequence is " << sequence[0] << ", " <<sequence[1] << ", " << sequence[2] << '\n';
+}
+
+
 
 
 

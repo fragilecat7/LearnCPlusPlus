@@ -44,6 +44,7 @@ public:
     void operate_on();
     void operate_on_double();
     void numerical_sequence();
+    void string_sequence();
 };
 
 #endif //LEARNCPLUSPLUS_CHAPTER3_H
