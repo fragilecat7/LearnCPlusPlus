@@ -6,7 +6,7 @@
 #define LEARNCPLUSPLUS_BOOK_H
 
 #include "../Book/Chapters/Chapter.h"
-#include "../Book/Chapters/Chapter2.h"
-#include "../Book/Chapters/Chapter3.h"
+#include "Chapters/two/Chapter2.h"
+#include "Chapters/three/Chapter3.h"
 
 #endif //LEARNCPLUSPLUS_BOOK_H

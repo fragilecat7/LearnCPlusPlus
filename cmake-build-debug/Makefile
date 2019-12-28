@@ -150,59 +150,59 @@ Book/Chapters/Chapter.cpp.s:
 	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.s
 .PHONY : Book/Chapters/Chapter.cpp.s
 
-Book/Chapters/Chapter2.o: Book/Chapters/Chapter2.cpp.o
+Book/Chapters/three/Chapter3.o: Book/Chapters/three/Chapter3.cpp.o
 
-.PHONY : Book/Chapters/Chapter2.o
-
-# target to build an object file
-Book/Chapters/Chapter2.cpp.o:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o
-.PHONY : Book/Chapters/Chapter2.cpp.o
-
-Book/Chapters/Chapter2.i: Book/Chapters/Chapter2.cpp.i
-
-.PHONY : Book/Chapters/Chapter2.i
-
-# target to preprocess a source file
-Book/Chapters/Chapter2.cpp.i:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.i
-.PHONY : Book/Chapters/Chapter2.cpp.i
-
-Book/Chapters/Chapter2.s: Book/Chapters/Chapter2.cpp.s
-
-.PHONY : Book/Chapters/Chapter2.s
-
-# target to generate assembly for a file
-Book/Chapters/Chapter2.cpp.s:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.s
-.PHONY : Book/Chapters/Chapter2.cpp.s
-
-Book/Chapters/Chapter3.o: Book/Chapters/Chapter3.cpp.o
-
-.PHONY : Book/Chapters/Chapter3.o
+.PHONY : Book/Chapters/three/Chapter3.o
 
 # target to build an object file
-Book/Chapters/Chapter3.cpp.o:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o
-.PHONY : Book/Chapters/Chapter3.cpp.o
+Book/Chapters/three/Chapter3.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o
+.PHONY : Book/Chapters/three/Chapter3.cpp.o
 
-Book/Chapters/Chapter3.i: Book/Chapters/Chapter3.cpp.i
+Book/Chapters/three/Chapter3.i: Book/Chapters/three/Chapter3.cpp.i
 
-.PHONY : Book/Chapters/Chapter3.i
+.PHONY : Book/Chapters/three/Chapter3.i
 
 # target to preprocess a source file
-Book/Chapters/Chapter3.cpp.i:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.i
-.PHONY : Book/Chapters/Chapter3.cpp.i
+Book/Chapters/three/Chapter3.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.i
+.PHONY : Book/Chapters/three/Chapter3.cpp.i
 
-Book/Chapters/Chapter3.s: Book/Chapters/Chapter3.cpp.s
+Book/Chapters/three/Chapter3.s: Book/Chapters/three/Chapter3.cpp.s
 
-.PHONY : Book/Chapters/Chapter3.s
+.PHONY : Book/Chapters/three/Chapter3.s
 
 # target to generate assembly for a file
-Book/Chapters/Chapter3.cpp.s:
-	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.s
-.PHONY : Book/Chapters/Chapter3.cpp.s
+Book/Chapters/three/Chapter3.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.s
+.PHONY : Book/Chapters/three/Chapter3.cpp.s
+
+Book/Chapters/two/Chapter2.o: Book/Chapters/two/Chapter2.cpp.o
+
+.PHONY : Book/Chapters/two/Chapter2.o
+
+# target to build an object file
+Book/Chapters/two/Chapter2.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o
+.PHONY : Book/Chapters/two/Chapter2.cpp.o
+
+Book/Chapters/two/Chapter2.i: Book/Chapters/two/Chapter2.cpp.i
+
+.PHONY : Book/Chapters/two/Chapter2.i
+
+# target to preprocess a source file
+Book/Chapters/two/Chapter2.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.i
+.PHONY : Book/Chapters/two/Chapter2.cpp.i
+
+Book/Chapters/two/Chapter2.s: Book/Chapters/two/Chapter2.cpp.s
+
+.PHONY : Book/Chapters/two/Chapter2.s
+
+# target to generate assembly for a file
+Book/Chapters/two/Chapter2.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.s
+.PHONY : Book/Chapters/two/Chapter2.cpp.s
 
 main.o: main.cpp.o
 
@@ -243,12 +243,12 @@ help:
 	@echo "... Book/Chapters/Chapter.o"
 	@echo "... Book/Chapters/Chapter.i"
 	@echo "... Book/Chapters/Chapter.s"
-	@echo "... Book/Chapters/Chapter2.o"
-	@echo "... Book/Chapters/Chapter2.i"
-	@echo "... Book/Chapters/Chapter2.s"
-	@echo "... Book/Chapters/Chapter3.o"
-	@echo "... Book/Chapters/Chapter3.i"
-	@echo "... Book/Chapters/Chapter3.s"
+	@echo "... Book/Chapters/three/Chapter3.o"
+	@echo "... Book/Chapters/three/Chapter3.i"
+	@echo "... Book/Chapters/three/Chapter3.s"
+	@echo "... Book/Chapters/two/Chapter2.o"
+	@echo "... Book/Chapters/two/Chapter2.i"
+	@echo "... Book/Chapters/two/Chapter2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -8,19 +8,7 @@ For reference: https://help.github.com/en/github/writing-on-github/basic-writing
 
 Inspirational, liked to see [R A Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein) referenced, glanced through the rest. Very much a traditional textbook setup.
 
-## Chapter 2
-
-Rubber hits the road, or it should do and lets confirm it here. I choose to use [Clion](https://www.jetbrains.com/clion/features/) as my IDE as I have used [JetBrian's products](https://www.jetbrains.com) and rather like them. 
-
-### Notes
-
-- Hello `main()`!
-- What is this header `std_lib_facilities.h`?
-- Stopped really using the header, things are working, my understanding is not deep :)
-- Figure will use the  namespace operator `std::` for practise
-- 2.4 Linking, always good to learn more about this step, read again.
-- Began organizing project due to clutter in `main.cpp`
-- Initial chapter setup of chapter questions my non-answers and terms related to the chapter
+[Chpater 2](./chapters/two/Chapter2.md)
 
 
 ## Chapter 3

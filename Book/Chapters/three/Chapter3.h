@@ -2,7 +2,7 @@
 // Created by Peter Hornsby on 12/13/19.
 //
 
-#include "Chapter.h"
+#include "../Chapter.h"
 #include <string>
 
 #ifndef LEARNCPLUSPLUS_CHAPTER3_H

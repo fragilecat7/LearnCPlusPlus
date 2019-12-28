@@ -70,31 +70,31 @@ CMakeFiles/LearnCPlusPlus.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp -o CMakeFiles/LearnCPlusPlus.dir/main.cpp.s
 
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o: ../Book/Chapters/Chapter2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o -c /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter2.cpp
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o: ../Book/Chapters/two/Chapter2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o -c /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/two/Chapter2.cpp
 
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter2.cpp > CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.i
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/two/Chapter2.cpp > CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.i
 
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter2.cpp -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.s
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/two/Chapter2.cpp -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.s
 
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o: ../Book/Chapters/Chapter3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o -c /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter3.cpp
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o: ../Book/Chapters/three/Chapter3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/phornsby/Documents/Work/LearnCPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o -c /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/three/Chapter3.cpp
 
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter3.cpp > CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.i
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/three/Chapter3.cpp > CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.i
 
-CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter3.cpp -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.s
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/three/Chapter3.cpp -o CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.s
 
 CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.o: CMakeFiles/LearnCPlusPlus.dir/flags.make
 CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.o: ../Book/Chapters/Chapter.cpp
@@ -112,16 +112,16 @@ CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.s: cmake_force
 # Object files for target LearnCPlusPlus
 LearnCPlusPlus_OBJECTS = \
 "CMakeFiles/LearnCPlusPlus.dir/main.cpp.o" \
-"CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o" \
-"CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o" \
+"CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o" \
+"CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o" \
 "CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.o"
 
 # External object files for target LearnCPlusPlus
 LearnCPlusPlus_EXTERNAL_OBJECTS =
 
 LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/main.cpp.o
-LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter2.cpp.o
-LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter3.cpp.o
+LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o
+LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o
 LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.o
 LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/build.make
 LearnCPlusPlus: CMakeFiles/LearnCPlusPlus.dir/link.txt

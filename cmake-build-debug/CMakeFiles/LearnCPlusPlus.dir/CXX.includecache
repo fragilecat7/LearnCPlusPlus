@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Book.h
+../Book/Chapters/Chapter.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter.h
+Chapters/two/Chapter2.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/two/Chapter2.h
+Chapters/three/Chapter3.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/three/Chapter3.h
+
 /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter.h
 iostream
 -
@@ -14,7 +22,7 @@ string
 vector
 -
 
-/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter3.cpp
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/three/Chapter3.cpp
 iostream
 -
 iomanip
@@ -28,11 +36,19 @@ vector
 cstdlib
 -
 Chapter3.h
-/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter3.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/three/Chapter3.h
 
-/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter3.h
-Chapter.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/three/Chapter3.h
+../Chapter.h
 /Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter.h
 string
 -
+
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/two/Chapter2.h
+../Chapter.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Chapters/Chapter.h
+
+/Users/phornsby/Documents/Work/LearnCPlusPlus/main.cpp
+Book/Book.h
+/Users/phornsby/Documents/Work/LearnCPlusPlus/Book/Book.h
 
