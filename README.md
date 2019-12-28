@@ -8,7 +8,7 @@ For reference: https://help.github.com/en/github/writing-on-github/basic-writing
 
 Inspirational, liked to see [R A Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein) referenced, glanced through the rest. Very much a traditional textbook setup.
 
-[Chpater 2](./chapters/two/Chapter2.md)
+[Chpater 2](./Book/chapters/two/Chapter2.md)
 
 
 ## Chapter 3
