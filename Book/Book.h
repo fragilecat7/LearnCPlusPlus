@@ -8,5 +8,6 @@
 #include "./Chapters/Chapter.h"
 #include "./Chapters/two/Chapter2.h"
 #include "./Chapters/three/Chapter3.h"
+#include "./Chapters/four/Chapter4.h"
 
 #endif //LEARNCPLUSPLUS_BOOK_H

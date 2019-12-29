@@ -10,11 +10,11 @@ int main() {
     std::string test = "a test string";
     int test_int = 7;
 
-    // Chapter 2
+    // Chapter 2: Hello World!
     Chapter2 chapter2;
     chapter2.output();
 
-    // Chapter 3
+    // Chapter 3: Objects, Types, and Values
     Chapter3 chapter3;
     //chapter3.output();
     chapter3.output_types_and_objects_list();
@@ -27,7 +27,13 @@ int main() {
     //chapter3.odd_or_even();
     //chapter3.words_to_numbers();
     //chapter3.operation_first_operands_second();
-    chapter3.counting_pennies();
+    //chapter3.counting_pennies();
+
+
+    // Chapter 4: Computation
+    Chapter4 chapter4;
+    chapter4.output();
+
     // The End
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';

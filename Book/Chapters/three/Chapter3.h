@@ -8,9 +8,7 @@
 #ifndef LEARNCPLUSPLUS_CHAPTER3_H
 #define LEARNCPLUSPLUS_CHAPTER3_H
 
-namespace pjh {
 
-}
 
 class Chapter3 : public Chapter {
 

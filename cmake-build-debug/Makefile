@@ -150,6 +150,33 @@ Book/Chapters/Chapter.cpp.s:
 	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.s
 .PHONY : Book/Chapters/Chapter.cpp.s
 
+Book/Chapters/four/Chapter4.o: Book/Chapters/four/Chapter4.cpp.o
+
+.PHONY : Book/Chapters/four/Chapter4.o
+
+# target to build an object file
+Book/Chapters/four/Chapter4.cpp.o:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/four/Chapter4.cpp.o
+.PHONY : Book/Chapters/four/Chapter4.cpp.o
+
+Book/Chapters/four/Chapter4.i: Book/Chapters/four/Chapter4.cpp.i
+
+.PHONY : Book/Chapters/four/Chapter4.i
+
+# target to preprocess a source file
+Book/Chapters/four/Chapter4.cpp.i:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/four/Chapter4.cpp.i
+.PHONY : Book/Chapters/four/Chapter4.cpp.i
+
+Book/Chapters/four/Chapter4.s: Book/Chapters/four/Chapter4.cpp.s
+
+.PHONY : Book/Chapters/four/Chapter4.s
+
+# target to generate assembly for a file
+Book/Chapters/four/Chapter4.cpp.s:
+	$(MAKE) -f CMakeFiles/LearnCPlusPlus.dir/build.make CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/four/Chapter4.cpp.s
+.PHONY : Book/Chapters/four/Chapter4.cpp.s
+
 Book/Chapters/three/Chapter3.o: Book/Chapters/three/Chapter3.cpp.o
 
 .PHONY : Book/Chapters/three/Chapter3.o
@@ -243,6 +270,9 @@ help:
 	@echo "... Book/Chapters/Chapter.o"
 	@echo "... Book/Chapters/Chapter.i"
 	@echo "... Book/Chapters/Chapter.s"
+	@echo "... Book/Chapters/four/Chapter4.o"
+	@echo "... Book/Chapters/four/Chapter4.i"
+	@echo "... Book/Chapters/four/Chapter4.s"
 	@echo "... Book/Chapters/three/Chapter3.o"
 	@echo "... Book/Chapters/three/Chapter3.i"
 	@echo "... Book/Chapters/three/Chapter3.s"

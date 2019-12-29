@@ -4,6 +4,10 @@
 CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.o: ../Book/Chapters/Chapter.cpp
 CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/Chapter.cpp.o: ../Book/Chapters/Chapter.h
 
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/four/Chapter4.cpp.o: ../Book/Chapters/Chapter.h
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/four/Chapter4.cpp.o: ../Book/Chapters/four/Chapter4.cpp
+CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/four/Chapter4.cpp.o: ../Book/Chapters/four/Chapter4.h
+
 CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o: ../Book/Chapters/Chapter.h
 CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o: ../Book/Chapters/three/Chapter3.cpp
 CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/three/Chapter3.cpp.o: ../Book/Chapters/three/Chapter3.h
@@ -14,6 +18,7 @@ CMakeFiles/LearnCPlusPlus.dir/Book/Chapters/two/Chapter2.cpp.o: ../Book/Chapters
 
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: ../Book/Book.h
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: ../Book/Chapters/Chapter.h
+CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: ../Book/Chapters/four/Chapter4.h
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: ../Book/Chapters/three/Chapter3.h
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: ../Book/Chapters/two/Chapter2.h
 CMakeFiles/LearnCPlusPlus.dir/main.cpp.o: ../main.cpp

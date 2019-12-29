@@ -25,7 +25,7 @@ Chapter3::Chapter3() {
                 "What is a literal?",
                 "What kinds of literals are there?",
                 "What is a variable?",
-                "What are tyical sizes for a char, an int and a double?",
+                "What are typical sizes for a char, an int and a double?",
                 "What measures do we use for the size of small entities in memory, usch as int's and strings?"
                 "What is the difference between = and ==?",
                 "What is a definition?",
@@ -73,21 +73,15 @@ Chapter3::Chapter3() {
 }
 
 
+Chapter3::~Chapter3() {
 
+}
 
 
 void Chapter3::output() {
     std::cout << "\n\nProgramming Principles and Practice Using C++ \nChapter 3\n";
     Chapter::output();
 }
-
-
-Chapter3::~Chapter3() {
-
-}
-
-
-
 
 
 
