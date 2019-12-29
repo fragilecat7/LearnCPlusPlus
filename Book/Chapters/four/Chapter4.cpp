@@ -97,8 +97,11 @@ void Chapter4::inch_centimeter_conversion() {
 
     std::cin >> length >> unit;
 
-    if (unit == 'i')
+    if (unit == 'i') {
         std::cout << length << "in == " << cm_per_inch * length << "cm\n";
-    else
-        std::cout << length << "in == " << length / cm_per_inch << "cm\n";
+    } else if (unit == 'c') {
+        std::cout << length << "cm == " << length / cm_per_inch << "in\n";
+    } else {
+        std::cout << "We'll leave you with that one..." << "\n";
+    }
 }
