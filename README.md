@@ -10,3 +10,9 @@ For reference: https://help.github.com/en/github/writing-on-github/basic-writing
 - [Chapter 4: Computation](./Book/Chapters/four/Chapter4.md)
 
 
+
+#### Reference 
+- [Programming -- Principles and Practice Using C++](http://www.stroustrup.com/programming.html)
+
+- [GitHub Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+
