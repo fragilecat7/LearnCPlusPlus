@@ -209,7 +209,7 @@ void Chapter3::output_narrowing_conversions() {
 
 
 void Chapter3::make_form_letter() {
-    std::cout << "\nWelcome to  Cheap & Cheerful Form letter Productions!\n";
+    std::cout << "\nWelcome to Cheap & Cheerful Form letter Productions!\n";
     std::cout << "\nPlease enter your name: ";
     std::string from_name;
     std::cin >> from_name;

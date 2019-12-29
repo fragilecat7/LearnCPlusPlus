@@ -3,6 +3,7 @@
 //
 
 #include "Chapter4.h"
+#include <iomanip>
 
 Chapter4::Chapter4() {
     std::cout << "Chapter4 Constructor called" << std::endl;
@@ -89,7 +90,7 @@ void Chapter4::output() {
 }
 
 void Chapter4::inch_centimeter_conversion() {
-    std::cout << "\nWelcome to  Cheap & Cheerful's Metric Conversion Tool!\n";
+    std::cout << "\nWelcome to Cheap & Cheerful's Metric Conversion Tool!\n";
     std::cout << "Please enter a length followed by a unit (c or i): ";
     constexpr double cm_per_inch = 2.54;
     double length = 1;
@@ -103,5 +104,43 @@ void Chapter4::inch_centimeter_conversion() {
         std::cout << length << "cm == " << length / cm_per_inch << "in\n";
     } else {
         std::cout << "We'll leave you with that one..." << "\n";
+    }
+}
+
+
+void Chapter4::currency_conversion() {
+
+    std::string index = "yen = y\nkroner = k\npound = p\ndollar = d";
+
+    std::cout << "\nWelcome to Cheap & Cheerful's Currency Exchange!\n";
+    std::cout << index << '\n';
+    std::cout << "Please enter the amount followed by the currency's code (y, k, p): ";
+
+    double from_amount = 0;
+    char from_unit = 0;
+    std::cin >> from_amount >> from_unit;
+    if (from_unit == 'y') {
+        std::cout << "You would like to convert " << from_amount << " yen to dollars." << '\n';
+    } else if (from_unit == 'k') {
+        std::cout << "You would like to convert " << from_amount << " kroner to dollars." << '\n';
+    } else if (from_unit == 'p') {
+        std::cout << "You would like to convert " << from_amount << " pound to dollars." << '\n';
+    }  else {
+        std::cout << "We are a small exchange and that is is all we deal with, yen, kroner, pound!" << "\n";
+    }
+
+    // pjh: source google.com
+    double yen_to_dollar_rate = 0.0091;
+    double kroner_to_dollar_rate = 0.11;
+    double pound_to_dollar_rate = 0.76;
+
+    if (from_unit == 'y') {
+        std::cout << "You have " << std::fixed << std::setprecision(2) << yen_to_dollar_rate * from_amount  << " dollars!" << '\n';
+    } else if (from_unit == 'k') {
+        std::cout << "You have " << std::fixed << std::setprecision(2) << kroner_to_dollar_rate * from_amount  << " dollars!" << '\n';
+    } else if (from_unit == 'p') {
+        std::cout << "You have " << std::fixed << std::setprecision(2) << pound_to_dollar_rate * from_amount  << " dollars!" << '\n';
+    } else {
+        std::cout << "We are a small exchange and that is all we deal with, goodbye sir!" << "\n";
     }
 }
