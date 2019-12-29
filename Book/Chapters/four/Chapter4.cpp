@@ -116,9 +116,17 @@ void Chapter4::currency_conversion() {
     std::cout << index << '\n';
     std::cout << "Please enter the amount followed by the currency's code (y, k, p): ";
 
+
     double from_amount = 0;
     char from_unit = 0;
     std::cin >> from_amount >> from_unit;
+
+
+    while (from_unit != 'y' && from_unit != 'k' && from_unit != 'p') {
+        std::cout << "\nPlease enter the amount followed by the currency's code (y, k, p): ";
+        std::cin >> from_unit;
+    }
+
     if (from_unit == 'y') {
         std::cout << "You would like to convert " << from_amount << " yen to dollars." << '\n';
     } else if (from_unit == 'k') {
@@ -127,19 +135,21 @@ void Chapter4::currency_conversion() {
         std::cout << "You would like to convert " << from_amount << " pound to dollars." << '\n';
     }  else {
         std::cout << "We are a small exchange and that is is all we deal with, yen, kroner, pound!" << "\n";
+        return;
     }
 
     // pjh: source google.com
-    double yen_to_dollar_rate = 0.0091;
-    double kroner_to_dollar_rate = 0.11;
+    double yen_to_dollar_rate = 109.45;
+    double kroner_to_dollar_rate = 8.82;
     double pound_to_dollar_rate = 0.76;
 
     if (from_unit == 'y') {
-        std::cout << "You have " << std::fixed << std::setprecision(2) << yen_to_dollar_rate * from_amount  << " dollars!" << '\n';
+        std::cout << "You have " << std::fixed << std::setprecision(2) << from_amount /
+        yen_to_dollar_rate  << " dollars!" << '\n';
     } else if (from_unit == 'k') {
-        std::cout << "You have " << std::fixed << std::setprecision(2) << kroner_to_dollar_rate * from_amount  << " dollars!" << '\n';
+        std::cout << "You have " << std::fixed << std::setprecision(2) << from_amount / kroner_to_dollar_rate << " dollars!" << '\n';
     } else if (from_unit == 'p') {
-        std::cout << "You have " << std::fixed << std::setprecision(2) << pound_to_dollar_rate * from_amount  << " dollars!" << '\n';
+        std::cout << "You have " << std::fixed << std::setprecision(2) <<  from_amount / pound_to_dollar_rate  << " dollars!" << '\n';
     } else {
         std::cout << "We are a small exchange and that is all we deal with, goodbye sir!" << "\n";
     }
