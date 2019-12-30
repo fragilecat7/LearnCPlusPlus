@@ -201,11 +201,17 @@ void Chapter4::first_program() {
 void Chapter4::char_loop() {
     // pjh: David Wheeler, May 6th, England
 
-    int i = 0;
-    while (i < 26) {
-        char character = char('a' + i);
+    for (int j = 0; j < 26; ++j) {
+        char character = char('a' + j);
         int integer = character;
         std::cout << character << '\t' << integer << '\n';
-        ++i;
     }
+
+//    int i = 0;
+//    while (i < 26) {
+//        char character = char('a' + i);
+//        int integer = character;
+//        std::cout << character << '\t' << integer << '\n';
+//        ++i;
+//    }
 }
