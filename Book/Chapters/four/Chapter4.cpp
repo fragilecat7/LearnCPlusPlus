@@ -4,6 +4,7 @@
 
 #include "Chapter4.h"
 #include <iomanip>
+#include <cmath>
 
 Chapter4::Chapter4() {
     std::cout << "Chapter4 Constructor called" << std::endl;
@@ -127,6 +128,7 @@ void Chapter4::currency_conversion() {
         std::cin >> from_unit;
     }
 
+    // pjh: happy to see my friend switch!
     switch (from_unit) {
         case 'y':
             std::cout << "You would like to convert " << from_amount << " yen to dollars." << '\n';
@@ -182,5 +184,28 @@ void Chapter4::inch_centimeter_conversion_using_switch() {
             break;
         default:
             std::cout << "We'll leave you with that one..." << "\n";
+    }
+}
+
+
+void Chapter4::first_program() {
+    // pjh: David Wheeler, May 6th, England
+
+    int i = 0;
+    while (i < 100) {
+        std::cout << i << '\t' << std::pow(i, 2) << '\n';
+        ++i;
+    }
+}
+
+void Chapter4::char_loop() {
+    // pjh: David Wheeler, May 6th, England
+
+    int i = 0;
+    while (i < 26) {
+        char character = char('a' + i);
+        int integer = character;
+        std::cout << character << '\t' << integer << '\n';
+        ++i;
     }
 }

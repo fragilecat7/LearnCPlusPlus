@@ -25,6 +25,8 @@ public:
     void inch_centimeter_conversion();
     void currency_conversion();
     void inch_centimeter_conversion_using_switch();
+    void first_program();
+    void char_loop();
 
 };
 

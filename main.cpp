@@ -33,9 +33,10 @@ int main() {
     // Chapter 4: Computation
     Chapter4 chapter4;
     //chapter4.inch_centimeter_conversion();
-    chapter4.currency_conversion();
+    //chapter4.currency_conversion();
     //chapter4.inch_centimeter_conversion_using_switch();
-
+    //chapter4.first_program();
+    chapter4.char_loop();
     // The End
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';
