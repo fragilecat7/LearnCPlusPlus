@@ -37,6 +37,8 @@ int main() {
     //chapter4.inch_centimeter_conversion_using_switch();
     //chapter4.first_program();
     chapter4.char_loop();
+    std::cout << "Okay, use that function,baby!!\nTHe square of 7 is: " << chapter4.square(7) << '\n';
+    std::cout << "Okay, use that function,baby!!\nTHe square of 9 is: " << chapter4.square(9) << '\n';
     // The End
     std::string s = "Goodbye, cruel world!";
     std::cout << s << '\n';

@@ -27,7 +27,7 @@ public:
     void inch_centimeter_conversion_using_switch();
     void first_program();
     void char_loop();
-
+    int square(int x);
 };
 
 

@@ -215,3 +215,14 @@ void Chapter4::char_loop() {
 //        ++i;
 //    }
 }
+
+int Chapter4::square(int x) {
+
+    int result = 0;
+    for (int i = 0; i < x; ++i) {
+        result += x;
+    }
+
+    return result;
+    //return x * x;
+}
