@@ -24,6 +24,7 @@ public:
     // Chapter exercises and examples
     void inch_centimeter_conversion();
     void currency_conversion();
+    void inch_centimeter_conversion_using_switch();
 
 };
 

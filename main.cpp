@@ -34,7 +34,7 @@ int main() {
     Chapter4 chapter4;
     //chapter4.inch_centimeter_conversion();
     chapter4.currency_conversion();
-
+    //chapter4.inch_centimeter_conversion_using_switch();
 
     // The End
     std::string s = "Goodbye, cruel world!";

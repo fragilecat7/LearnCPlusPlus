@@ -127,15 +127,18 @@ void Chapter4::currency_conversion() {
         std::cin >> from_unit;
     }
 
-    if (from_unit == 'y') {
-        std::cout << "You would like to convert " << from_amount << " yen to dollars." << '\n';
-    } else if (from_unit == 'k') {
-        std::cout << "You would like to convert " << from_amount << " kroner to dollars." << '\n';
-    } else if (from_unit == 'p') {
-        std::cout << "You would like to convert " << from_amount << " pound to dollars." << '\n';
-    }  else {
-        std::cout << "We are a small exchange and that is is all we deal with, yen, kroner, pound!" << "\n";
-        return;
+    switch (from_unit) {
+        case 'y':
+            std::cout << "You would like to convert " << from_amount << " yen to dollars." << '\n';
+            break;
+        case 'k':
+            std::cout << "You would like to convert " << from_amount << " kroner to dollars." << '\n';
+        case 'p':
+            std::cout << "You would like to convert " << from_amount << " pound to dollars." << '\n';
+            break;
+        default:
+            std::cout << "We are a small exchange and that is is all we deal with, yen, kroner, pound!" << "\n";
+            std::cout << "We'll leave you with that one..." << "\n";
     }
 
     // pjh: source google.com
@@ -143,14 +146,41 @@ void Chapter4::currency_conversion() {
     double kroner_to_dollar_rate = 8.82;
     double pound_to_dollar_rate = 0.76;
 
-    if (from_unit == 'y') {
-        std::cout << "You have " << std::fixed << std::setprecision(2) << from_amount /
-        yen_to_dollar_rate  << " dollars!" << '\n';
-    } else if (from_unit == 'k') {
-        std::cout << "You have " << std::fixed << std::setprecision(2) << from_amount / kroner_to_dollar_rate << " dollars!" << '\n';
-    } else if (from_unit == 'p') {
-        std::cout << "You have " << std::fixed << std::setprecision(2) <<  from_amount / pound_to_dollar_rate  << " dollars!" << '\n';
-    } else {
-        std::cout << "We are a small exchange and that is all we deal with, goodbye sir!" << "\n";
+    switch (from_unit) {
+        case 'y':
+            std::cout << "You have " << std::fixed << std::setprecision(2) << from_amount / yen_to_dollar_rate  << " dollars!" << '\n';
+            break;
+        case 'k':
+            std::cout << "You have " << std::fixed << std::setprecision(2) << from_amount / kroner_to_dollar_rate << " dollars!" << '\n';
+        case 'p':
+            std::cout << "You have " << std::fixed << std::setprecision(2) <<  from_amount / pound_to_dollar_rate  << " dollars!" << '\n';
+            break;
+        default:
+            std::cout << "We are a small exchange and that is all we deal with, goodbye sir!" << "\n";
+            std::cout << "We'll leave you with that one..." << "\n";
+    }
+
+
+    std::cout << "Did ya catch all the bugs? :)" << '\n';
+}
+
+void Chapter4::inch_centimeter_conversion_using_switch() {
+    std::cout << "\nWelcome to Cheap & Cheerful's Metric Conversion Tool!\n";
+    std::cout << "Please enter a length followed by a unit (c or i): ";
+    constexpr double cm_per_inch = 2.54;
+    double length = 1;
+    char unit = 0;
+
+    std::cin >> length >> unit;
+
+    switch (unit) {
+        case 'i':
+            std::cout << length << "in == " << cm_per_inch * length << "cm\n";
+            break;
+        case 'c':
+            std::cout << length << "cm == " << length / cm_per_inch << "in\n";
+            break;
+        default:
+            std::cout << "We'll leave you with that one..." << "\n";
     }
 }
