@@ -28,6 +28,8 @@ public:
     void first_program();
     void char_loop();
     int square(int x);
+    void using_datstructure();
+    void simple_dictionary();
 };
 
 
