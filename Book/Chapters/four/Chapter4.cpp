@@ -5,32 +5,39 @@
 #include "Chapter4.h"
 #include <iomanip>
 #include <cmath>
+#include <vector>
 
 Chapter4::Chapter4() {
     std::cout << "Chapter4 Constructor called" << std::endl;
-    Chapter4::questions = {"",
-                           "",
-                           "",
-                           ""
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           ""
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           "",
-                           ""};
+    Chapter4::questions = {"What is a computation?",
+                           "What do we mean by inputs and outputs to computation? Give examples.",
+                           "What are the three requirements a programmer should keep in mind when expressing computations?",
+                           "What does an expression do?"
+                           "Waht is the difference between a statement and an expression, as described in this chapter?",
+                           "What is an lvalue? List the operators that require an lvalue. why do these operators, and not others require an lvalue?",
+                           "What is a constant expression?",
+                           "What is a literal?",
+                           "What is a symbolic constant and why do we use them?",
+                           "What is a magic constant? Give examples",
+                           "What are some operators that we use for integers and floating-point values?",
+                           "What operators can  be used on integers but not floating-point numbers?",
+                           "What are some operators that can be used for strings?"
+                           "When would a programmer prefer a switch-statement to an if-statement?",
+                           "What are some common problems with the switch-statement?",
+                           "What is the function of each part of the header line in a for-loop, and in what sequence are they executed?",
+                           "When should the for-loop be used and when should the while-loop be used?",
+                           "How do you print the numeric value of a char?",
+                           "Describe what the line char foo(int x) means in a function definition",
+                           "When should you define a separate function for part of a program? List the reasons.",
+                           "What can you do to an int that you cannot do to a string?",
+                           "What can you do to an sting that you cannot do to a int?",
+                           "What is the index of the third vector?",
+                           "How do you write a for-loop that prints every element of a vector?",
+                           "What does vector<char> alphabet(26); do?" ,
+                           "Describe what push_back() does to a vector?",
+                           "What does vector's member size() do?",
+                           "What makes vector so popular/useful?",
+                           "How do you sort the elements of a vector?"};
 
 
     Chapter4::answers =  {"1. ",
@@ -257,8 +264,45 @@ void Chapter4::play_with_numbers() {
         } else if (second > first) {
             std::cout << "The second integer " << second << " is greater than the first integer " << first << ".\n";
         } else if (first == second) {
-            std::cout << "The integers are equal: " << first  << " == " << second << '\n';
+            std::cout << "The integers are equal: " << first << " == " << second << '\n';
         }
+    }
+}
 
+
+void Chapter4::using_datastructure() {
+    std::vector<double> temps;
+    std::cout << "Please enter the temps in your data set: " << '\n';
+    for(double temp; std::cin >> temp;)
+        temps.push_back(temp);
+
+    // mean temperature
+    double sum = 0;
+    for(double x : temps) sum += x;
+    std::cout << "Average temperature: " << sum / temps.size() << '\n';
+
+    // median temperature
+    std::sort(temps.begin(), temps.end());
+    std::cout << "Median Temperature: " << temps[temps.size() / 2] << '\n';
+
+}
+
+
+void Chapter4::simple_dictionary() {
+    std::cout << "Please enter the words for this dictionary: " << '\n';
+
+    std::vector<std::string> words;
+    for(std::string temp; std::cin >> temp;) {
+        words.push_back(temp);
+        if (temp == "end") { break; }
+    }
+
+
+    std::cout << "Number of words: " << words.size() << '\n';
+    std::sort(words.begin(), words.end());
+
+    for (int i = 0; i < words.size(); ++i) {
+        if (i == 0 || words[i-1] != words[i])
+            std::cout << words[i] << ',';
     }
 }

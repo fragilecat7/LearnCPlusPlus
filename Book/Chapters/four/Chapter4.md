@@ -13,3 +13,4 @@ I like the way the chapter is organized, expression, selection and iteration the
 
 - `iteration`, repeat a computation for a series of values.
 
+4.6.3 - ```...we use the input operation std::cin>>temp, s the condition for a for-statement. Basically , std::cin>>temp is true if a value was read correctly and fasle otherwise```
