@@ -237,11 +237,11 @@ int Chapter4::square(int x) {
 void Chapter4::play_with_numbers() {
 
     bool isFinished = false;
-    int first = 0;
-    int second = 0;
+    double first = 0;
+    double second = 0;
     while (true) {
         std::cin.clear();
-        std::cout << "Please enter two integer values: ";
+        std::cout << "Please enter two double values: ";
         std::cin >> first >> second;
         if (std::cin.fail()) {
             std::cin.clear();
@@ -263,8 +263,10 @@ void Chapter4::play_with_numbers() {
             std::cout << "The first integer, " << first << " is greater than the second integer " << second << ".\n";
         } else if (second > first) {
             std::cout << "The second integer " << second << " is greater than the first integer " << first << ".\n";
-        } else if (first == second) {
-            std::cout << "The integers are equal: " << first << " == " << second << '\n';
+        }
+
+        if (first - second <= 1.0/100) {
+            std::cout << "The integers are almost equal: " << first << " ~= " << second << '\n';
         }
     }
 }
