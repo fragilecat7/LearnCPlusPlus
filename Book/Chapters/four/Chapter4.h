@@ -28,6 +28,7 @@ public:
     void first_program();
     void char_loop();
     int square(int x);
+    void play_with_numbers();
 };
 
 

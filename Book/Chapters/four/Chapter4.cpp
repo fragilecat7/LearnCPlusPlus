@@ -226,3 +226,39 @@ int Chapter4::square(int x) {
     return result;
     //return x * x;
 }
+
+void Chapter4::play_with_numbers() {
+
+    bool isFinished = false;
+    int first = 0;
+    int second = 0;
+    while (true) {
+        std::cin.clear();
+        std::cout << "Please enter two integer values: ";
+        std::cin >> first >> second;
+        if (std::cin.fail()) {
+            std::cin.clear();
+            std::string incorrect_value;
+            std::cin >> incorrect_value;
+            if (incorrect_value == "|") {
+                break;
+            } else {
+                std::cout << "incorrect_value: " << incorrect_value << '\n';
+            }
+        }
+
+        if (first && second) { break; }
+    }
+
+    if (first && second) {
+        std::cout << "You entered the integers " << first << " and " << second << '\n';
+        if (first > second) {
+            std::cout << "The first integer, " << first << " is greater than the second integer " << second << ".\n";
+        } else if (second > first) {
+            std::cout << "The second integer " << second << " is greater than the first integer " << first << ".\n";
+        } else if (first == second) {
+            std::cout << "The integers are equal: " << first  << " == " << second << '\n';
+        }
+
+    }
+}
