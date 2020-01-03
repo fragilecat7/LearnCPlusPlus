@@ -237,12 +237,13 @@ int Chapter4::square(int x) {
 void Chapter4::play_with_numbers() {
 
     bool isFinished = false;
-    double first = 0;
-    double second = 0;
+    double input;
+    double smallest = 0;
+    double largest = 0;
     while (true) {
         std::cin.clear();
-        std::cout << "Please enter two double values: ";
-        std::cin >> first >> second;
+        std::cout << "Please enter a double value: ";
+        std::cin >> input;
         if (std::cin.fail()) {
             std::cin.clear();
             std::string incorrect_value;
@@ -254,21 +255,36 @@ void Chapter4::play_with_numbers() {
             }
         }
 
-        if (first && second) { break; }
-    }
-
-    if (first && second) {
-        std::cout << "You entered the integers " << first << " and " << second << '\n';
-        if (first > second) {
-            std::cout << "The first integer, " << first << " is greater than the second integer " << second << ".\n";
-        } else if (second > first) {
-            std::cout << "The second integer " << second << " is greater than the first integer " << first << ".\n";
+        if (smallest == 0 && largest == 0) {
+            smallest = largest = input;
         }
 
-        if (first - second <= 1.0/100) {
-            std::cout << "The integers are almost equal: " << first << " ~= " << second << '\n';
+        std::cout << "You enter the number " << input;
+        if (input > largest) {
+            largest = input;
+            std::cout << ", the largest number so far!" << '\n';
+        } else if (input < smallest) {
+            smallest = input;
+            std::cout << ", the smallest number so far!" << '\n';
+        } else {
+            std::cout << "." << '\n';
         }
+
     }
+
+
+//    if (first && second) {
+//        std::cout << "You entered the integers " << first << " and " << second << '\n';
+//        if (first > second) {
+//            std::cout << "The first integer, " << first << " is greater than the second integer " << second << ".\n";
+//        } else if (second > first) {
+//            std::cout << "The second integer " << second << " is greater than the first integer " << first << ".\n";
+//        }
+//
+//        if (first - second <= 1.0/100) {
+//            std::cout << "The integers are almost equal: " << first << " ~= " << second << '\n';
+//        }
+//    }
 }
 
 
