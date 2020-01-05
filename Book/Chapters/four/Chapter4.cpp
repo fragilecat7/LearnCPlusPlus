@@ -271,21 +271,119 @@ void Chapter4::play_with_numbers() {
         }
 
     }
+}
 
 
-//    if (first && second) {
-//        std::cout << "You entered the integers " << first << " and " << second << '\n';
-//        if (first > second) {
-//            std::cout << "The first integer, " << first << " is greater than the second integer " << second << ".\n";
-//        } else if (second > first) {
-//            std::cout << "The second integer " << second << " is greater than the first integer " << first << ".\n";
+void Chapter4::play_with_numbers_v2() {
+
+    double value;
+    std::string input;
+    std::string raw = "";
+    std::string unit = "";
+    double smallest = 0;
+    double largest = 0;
+    double converted_value = 1;
+    const std::string largestunit = "m";
+    const std::string smallestunit = "m";
+
+    while (true) {
+        // pjh: keep program running
+        std::cout << "\nPlease enter a number with a unit(cm, m, in, ft): ";
+        std::cin >> input;
+
+        for (int i = 0; i < input.size(); ++i) {
+            char c = input.at(i);
+            if (std::isdigit(c) || c == '.') {
+                raw += c;
+
+            } else if (std::isalpha(c)) {
+                unit += c;
+            }
+
+            if (c == '|') {
+                std::cout << "\nExiting the program... \n";
+                return;
+            }
+        }
+
+        if (unit.empty()) {
+            std::cin >> unit;
+            std::cout << "new value for units " << unit << '\n';
+        }
+
+        if (unit != "cm" && unit != "m" && unit != "in" && unit != "ft") {
+            std::cout << "I am confused ?? Invalid unit."  << '\n';
+            input = "";
+            raw = "";
+            unit = "";
+            continue;
+        }
+
+        std::cout << "You have entered: " << raw << " with " << " units of " << unit << '\n';
+        value = std::stod(raw);
+
+        if (unit == "m") {
+            converted_value = value;
+        } else if (unit == "cm") {
+            converted_value = value / 100;
+
+        } else if (unit == "ft") {
+            converted_value = ((value / 12) * 2.54) / 100;
+
+        } else if (unit == "in") {
+            converted_value = (value * 2.54) / 100;
+        }
+
+
+
+        if (smallest == 0 && largest == 0) {
+            smallest = largest = value;
+        }
+
+        std::cout << "You enter the number " << value;
+        if (converted_value > largest) {
+            largest = converted_value;
+            std::cout << ", the largest number so far!" << '\n';
+        } else if (converted_value < smallest) {
+            smallest = converted_value;
+            std::cout << ", the smallest number so far!" << '\n';
+        } else {
+            std::cout << "." << '\n';
+        }
+
+        // pjh: clear for next iteration
+        input = "";
+        raw = "";
+        unit = "";
+        converted_value = 0;
+    }
+
+}
+
+
+//    while (c != '|') {
+//        std::cout << "Please enter a number with a unit(cm, m, in, ft): ";
+//        std::cin >> c;
+//        if (std::isdigit(c) || c == '.') {
+//            raw += c;
+//            std::cout << raw << '\n';
+//        } else if (std::isalpha(c)) {
+//            unit += c;
+//            std::cout << unit << '\n';
 //        }
 //
-//        if (first - second <= 1.0/100) {
-//            std::cout << "The integers are almost equal: " << first << " ~= " << second << '\n';
+//        std::cout << "c == " << c << "\n\n";
+//
+//        if (c == '\n' || c == '|') {
+//            std::cout << "You have entered: " << raw << " with " << unit << "units" << '\n';
+//
+//        } else if ((c == '\n' || c == '|') && (unit != "cm" || unit != "m" || unit != "in" || unit != "ft")) {
+//            std::cout << "Invalid unit, I am confused ??\n" << "Please try again: " << '\n';
+//            continue;
+//
 //        }
 //    }
-}
+
 
 
 void Chapter4::using_datastructure() {

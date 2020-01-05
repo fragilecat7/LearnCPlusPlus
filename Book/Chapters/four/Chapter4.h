@@ -31,6 +31,7 @@ public:
     void using_datastructure();
     void simple_dictionary();
     void play_with_numbers();
+    void play_with_numbers_v2();
 
 };
 
