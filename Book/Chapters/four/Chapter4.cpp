@@ -280,11 +280,14 @@ void Chapter4::play_with_numbers_v2() {
     std::string input;
     std::string raw = "";
     std::string unit = "";
+    std::vector<double> values;
     double smallest = 0;
     double largest = 0;
+    double sum_of_values = 0;
     double converted_value = 1;
     const std::string largestunit = "m";
     const std::string smallestunit = "m";
+
 
     while (true) {
         // pjh: keep program running
@@ -322,13 +325,14 @@ void Chapter4::play_with_numbers_v2() {
         std::cout << "You have entered: " << raw << " with " << " units of " << unit << '\n';
         value = std::stod(raw);
 
+        // Meter is our unit of choice
         if (unit == "m") {
             converted_value = value;
         } else if (unit == "cm") {
             converted_value = value / 100;
 
         } else if (unit == "ft") {
-            converted_value = ((value / 12) * 2.54) / 100;
+            converted_value = ((value * 12) * 2.54) / 100;
 
         } else if (unit == "in") {
             converted_value = (value * 2.54) / 100;
@@ -337,7 +341,7 @@ void Chapter4::play_with_numbers_v2() {
 
 
         if (smallest == 0 && largest == 0) {
-            smallest = largest = value;
+            smallest = largest = converted_value;
         }
 
         std::cout << "You enter the number " << value;
@@ -346,10 +350,20 @@ void Chapter4::play_with_numbers_v2() {
             std::cout << ", the largest number so far!" << '\n';
         } else if (converted_value < smallest) {
             smallest = converted_value;
-            std::cout << ", the smallest number so far!" << '\n';
+            if (values.size() > 1) {
+                std::cout << ", the smallest number so far!" << '\n';
+            }
         } else {
             std::cout << "." << '\n';
         }
+        sum_of_values += converted_value;
+        values.push_back(converted_value);
+
+        // pjh: report our deeds
+        std::cout << "The total number of inputs is: " << values.size() << ".\n";
+        std::cout << "The largest value is: " << largest << ".\n";
+        std::cout << "The smallest value is: " << smallest << "m.\n";
+        std::cout << "The sum of all the values is: " << sum_of_values << "m.\n\n";
 
         // pjh: clear for next iteration
         input = "";
