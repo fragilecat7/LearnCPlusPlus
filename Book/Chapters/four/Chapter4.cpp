@@ -347,23 +347,30 @@ void Chapter4::play_with_numbers_v2() {
         std::cout << "You enter the number " << value;
         if (converted_value > largest) {
             largest = converted_value;
-            std::cout << ", the largest number so far!" << '\n';
+            std::cout << ", with unit " <<  unit << "it's the largest number so far!" << '\n';
         } else if (converted_value < smallest) {
             smallest = converted_value;
             if (values.size() > 1) {
-                std::cout << ", the smallest number so far!" << '\n';
+                std::cout << ", with unit " <<  unit << "it's the smallest number so far!" << '\n';
             }
         } else {
-            std::cout << "." << '\n';
+            std::cout << ", with unit " << unit << ".\n";
         }
         sum_of_values += converted_value;
         values.push_back(converted_value);
 
         // pjh: report our deeds
         std::cout << "The total number of inputs is: " << values.size() << ".\n";
-        std::cout << "The largest value is: " << largest << ".\n";
-        std::cout << "The smallest value is: " << smallest << "m.\n";
-        std::cout << "The sum of all the values is: " << sum_of_values << "m.\n\n";
+        std::cout << "The largest value is: " << largest << "(m).\n";
+        std::cout << "The smallest value is: " << smallest << "(m).\n";
+        std::cout << "The sum of all the values is: " << sum_of_values << "(m).\n\n";
+
+        std::sort(values.begin(), values.end());
+        for(double value: values) {
+            std::cout << value << ", ";
+        }
+
+        std::cout << '\n';
 
         // pjh: clear for next iteration
         input = "";
