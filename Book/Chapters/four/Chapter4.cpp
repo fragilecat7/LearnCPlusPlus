@@ -361,30 +361,6 @@ void Chapter4::play_with_numbers_v2() {
 }
 
 
-//    while (c != '|') {
-//        std::cout << "Please enter a number with a unit(cm, m, in, ft): ";
-//        std::cin >> c;
-//        if (std::isdigit(c) || c == '.') {
-//            raw += c;
-//            std::cout << raw << '\n';
-//        } else if (std::isalpha(c)) {
-//            unit += c;
-//            std::cout << unit << '\n';
-//        }
-//
-//        std::cout << "c == " << c << "\n\n";
-//
-//        if (c == '\n' || c == '|') {
-//            std::cout << "You have entered: " << raw << " with " << unit << "units" << '\n';
-//
-//        } else if ((c == '\n' || c == '|') && (unit != "cm" || unit != "m" || unit != "in" || unit != "ft")) {
-//            std::cout << "Invalid unit, I am confused ??\n" << "Please try again: " << '\n';
-//            continue;
-//
-//        }
-//    }
-
-
 
 void Chapter4::using_datastructure() {
     std::vector<double> temps;
