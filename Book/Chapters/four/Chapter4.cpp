@@ -48,7 +48,7 @@ Chapter4::Chapter4() {
                           "6. A lvalue is left sided operand of a binary operation, a = 103;, here `a` is the lvalue and 103 is the rvalue. " ,
                           "7. A constant expression is an expression that can only be assigned a value at initialization, C++ uses symbolic constants to implement constant expressions, for example the statement 'constexpr double pi = 3.14;'",
                           "8. A literal is a constant expression",
-                          "9. we use  a symbolic constant to represent literals and avoid  magic numbers!",
+                          "9. we use a symbolic constant to represent literal and avoid  making it a magic numbers.",
                           "10. A magic constant is a literal value that has meaning within the program that is implicit, for example the book uses the speed of light - 299792458, we are assuming all programmers will recognize it's meaning.",
                           "11. "};
 
