@@ -40,16 +40,16 @@ Chapter4::Chapter4() {
                            "How do you sort the elements of a vector?"};
 
 
-    Chapter4::answers =  {"1. ",
-                          "2. ",
-                          "3.",
-                          "4. ",
-                          "5.",
-                          "6." ,
-                          "7. ",
-                          "8. '",
-                          "9. ",
-                          "10. ",
+    Chapter4::answers =  {"1. The chapter refers to computation as the act of producing output derived from input(s), it's worth noting as the book says `...Today we simply delegate most computations to computers... (s 4.1)",
+                          "2. By `inputs` we are referring to means that data can be entered into a program, by many means, camera, software, printer, sensor, etc. The output refers to what is generated from the program given various inputs, for instance  the average yearly car payments given the input of monthly payment amount.",
+                          "3. The three requirements to keep  in focus are 1. Correctness, 2. Simplicity and 3. Efficiently. Note the order matters, not much value in efficiently doing it incorrectly, or simply.",
+                          "4. An `expression` is the most basic building block of a program and it computes a value from a given number of operands.",
+                          "5. The difference between a statement and an expression per the book is a semi-colon (;) and it is used to terminate the expression, ie it makes it an expression statement.",
+                          "6. A lvalue is left sided operand of a binary operation, a = 103;, here `a` is the lvalue and 103 is the rvalue. " ,
+                          "7. A constant expression is an expression that can only be assigned a value at initialization, C++ uses symbolic constants to implement constant expressions, for example the statement 'constexpr double pi = 3.14;'",
+                          "8. A literal is a constant expression",
+                          "9. we use  a symbolic constant to represent literals and avoid  magic numbers!",
+                          "10. A magic constant is a literal value that has meaning within the program that is implicit, for example the book uses the speed of light - 299792458, we are assuming all programmers will recognize it's meaning.",
                           "11. "};
 
 
@@ -366,6 +366,7 @@ void Chapter4::play_with_numbers_v2() {
         std::cout << "The sum of all the values is: " << sum_of_values << "(m).\n\n";
 
         std::sort(values.begin(), values.end());
+        std::cout << "Values: ";
         for(double value: values) {
             std::cout << value << ", ";
         }
