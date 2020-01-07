@@ -382,9 +382,7 @@ void Chapter4::play_with_numbers_v2() {
 
 }
 
-
-
-void Chapter4::using_datastructure() {
+void Chapter4::median_temp() {
     std::vector<double> temps;
     std::cout << "Please enter the temps in your data set: " << '\n';
     for(double temp; std::cin >> temp;)
@@ -395,9 +393,22 @@ void Chapter4::using_datastructure() {
     for(double x : temps) sum += x;
     std::cout << "Average temperature: " << sum / temps.size() << '\n';
 
+    if (temps.size() == 1) {
+        std::cout << "There is only one entry, dataset is pretty small!!";
+    }
+
     // median temperature
     std::sort(temps.begin(), temps.end());
-    std::cout << "Median Temperature: " << temps[temps.size() / 2] << '\n';
+    if (temps.size() % 2 == 1) {
+        std::cout << "Median Temperature: " << temps[temps.size() / 2] << '\n';
+    } else if (temps.size() >= 3) {
+
+        std::cout << "-1: " << temps[(temps.size() / 2) - 1] << " +1: " << temps[(temps.size() / 2)] << '\n';
+        double median = (temps[(temps.size() / 2) - 1] + temps[(temps.size() / 2)]) / 2;
+        std::cout << "Median Temperature: " << median << '\n';
+
+    }
+
 
 }
 

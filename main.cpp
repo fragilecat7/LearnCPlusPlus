@@ -40,7 +40,8 @@ int main() {
     //chapter4.simple_dictionary();
     //std::cout << "Okay, use that function,baby!!\nTHe square of 7 is: " << chapter4.square(7) << '\n';
     //std::cout << "Okay, use that function,baby!!\nTHe square of 9 is: " << chapter4.square(9) << '\n';
-    chapter4.play_with_numbers_v2();
+    //chapter4.play_with_numbers_v2();
+    chapter4.median_temp();
 
     // The End
     std::string s = "\n\nGoodbye, cruel world!";
