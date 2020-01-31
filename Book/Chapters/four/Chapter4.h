@@ -32,6 +32,7 @@ public:
     void play_with_numbers();
     void play_with_numbers_v2();
     void median_temp();
+    void city_distances();
 };
 
 

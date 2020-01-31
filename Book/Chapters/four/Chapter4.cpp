@@ -235,8 +235,6 @@ int Chapter4::square(int x) {
 }
 
 void Chapter4::play_with_numbers() {
-
-    bool isFinished = false;
     double input;
     double smallest = 0;
     double largest = 0;
@@ -429,5 +427,54 @@ void Chapter4::simple_dictionary() {
     for (int i = 0; i < words.size(); ++i) {
         if (i == 0 || words[i-1] != words[i])
             std::cout << words[i] << ',';
+    }
+}
+
+
+void Chapter4::city_distances() {
+    std::string input = "";
+    std::string raw = "";
+    std::vector<double> distances;
+    double distance;
+    double smallest_distance = 0;
+    double greatest_distance = 0;
+    double sum_distance = 0;
+
+
+    while (true) {
+        // pjh: keep program running
+        std::cout << "\nPlease enter the distance between the two cities (miles):  ";
+        std::cin >> input;
+
+        for (int i = 0; i < input.size(); ++i) {
+            char c = input.at(i);
+            if (std::isdigit(c) || c == '.') {
+                raw += c;
+            }
+
+            if (c == '|') {
+                std::cout << "\nExiting the program... \n";
+
+                return;
+            }
+        }
+
+        std::cout << '\n';
+        std::cout << "You have entered: " << raw << " mile(s)" << '\n';
+        distance = std::stod(raw);
+        sum_distance += distance;
+        distances.push_back(distance);
+
+        std::cout << "Distances: ";
+        for(double mileage: distances) {
+            std::cout << mileage << ", ";
+        }
+
+        std::cout << '\n';
+
+        // pjh: clear
+        distance = 0;
+        raw = "";
+
     }
 }
